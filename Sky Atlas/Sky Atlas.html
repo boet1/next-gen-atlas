@@ -22596,7 +22596,7 @@
           </td>
           <td>Spark</td>
           <td>Core</td>
-          <td>This document defines the process to unstake sUSDe and return it to the ALM Proxy. ◦ Ensure you're working as a Relayer. Only the RELAYER role is allowed to unstakeSUSDe. Also, ensure the contract isActivei.e. can process the request. function unstakeSUSDe() external onlyRole(RELAYER) isActive ◦ Use proxy.doCall() to make a call to the susde contract to invoke the unstake function, which unstakes sUSDe and sends the resulting tokens back to the proxy address (i.e. ALM Proxy). Encode the function using abi.encodeCall.</td>
+          <td>This document defines the process to unstake sUSDe and return it to the ALM Proxy. ◦ Ensure you're working as a Relayer. Only the RELAYER role is allowed to unstakeSUSDe. Also, ensure the contract isActivei.e. can process the request. function unstakeSUSDe() external onlyRole(RELAYER) isActive ◦ Use proxy.doCall() to make a call to the susde contract to invoke the unstake function, which unstakes sUSDe and sends the resulting tokens back to the proxy address (i.e. ALM Proxy). Encode the function using abi.encodeCall. { proxy.doCall(address(susde), abi.encodeCall(susde.unstake, (address(proxy))));}</td>
         </tr>
         <tr>
           <td>
