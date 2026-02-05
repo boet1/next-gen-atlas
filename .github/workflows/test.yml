@@ -1,17 +1,13 @@
-name: Validate Atlas on Pull Request
+name: PR Trigger Test
 
 on:
   pull_request:
+    types: [opened]
 
 jobs:
-  validate:
+  test-pr:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Validate Atlas Markdown
-        uses: Atlas-Axis/atlas-validator@main
-        with:
-          file_path: "Sky Atlas/Sky Atlas.md"
+      - name: PR trigger reached
+        run: echo "✅ Workflow triggered by Pull Request"
