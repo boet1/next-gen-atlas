@@ -9,7 +9,7 @@ jobs:
     if: ${{ 
         github.event.pull_request.draft == false &&
         (
-          github.event.pull_request.user.login == 'blimpa'
+          github.event.pull_request.user.login == 'boet1'
         )
       }}
     runs-on: ubuntu-latest
