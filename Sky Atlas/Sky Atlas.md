@@ -2214,20 +2214,6 @@ Any Facilitator has the authority to formally raise an allegation of AD misalign
 
 A Facilitator's failure to act promptly in addressing credible evidence of AD misalignment or to mitigate the risk of misalignment spreading among ADs is considered an act of misalignment itself. Formal allegations of such failure must be adjudicated by the Core Facilitator pursuant to the same process referenced in the above-cited document.
 
-#### A.1.5.6.0.3.1 - Credible Evidence - Element Annotation [Annotation]  <!-- UUID: 578ff359-eff1-406e-8cb9-5f4807598c10 -->
-
-The element "credible evidence" refers to the evidentiary threshold required for a formal allegation to proceed to adjudication. A formal allegation is supported by credible evidence where it identifies (a) the specific requirement or standard alleged to have been breached, (b) the factual basis for the allegation, and (c) any supporting evidence. Where an allegation fails to meet this threshold, the Core Facilitator may decline to initiate adjudication, provided the basis for declining is documented.
-
-#### A.1.5.6.0.3.2 - Act Swiftly - Element Annotation [Annotation]  <!-- UUID: 3a9d0848-e034-4d6b-8c4f-3d18e92edb71 -->
-
-The element "act swiftly" does not preclude reasonable delay where the Facilitator requires additional time to gather evidence, consult with the accused party, or seek guidance from Core GovOps. The Facilitator should document the basis for any such delay.
-
-#### A.1.5.6.0.4.1 - Facilitators’ Authority To Raise Formal Allegation [Action Tenet]  <!-- UUID: c5146fa6-00ec-4543-9288-410570b5d588 -->
-
-Any community member or Aligned Delegate with information pertinent to suspected Alignment Conserver misalignment may take their concerns directly to the Core Facilitator.  Upon receiving such information, the Core Facilitator must promptly conduct an initial review to quickly assess the credibility of the concern. Based on this preliminary review, the Core Facilitator must decide whether to initiate a formal adjudication process in accordance with [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
-
-Where the allegation of misalignment concerns the Core Facilitator, a community member can take their concerns to Core GovOps, who is then empowered to initiate the formal adjudication process.
-
 #### A.1.5.6.1 - Graduated Response Framework [Core]  <!-- UUID: 2544a530-42f8-4699-b428-7c3568e1635e -->
 
 Breaches of Aligned Delegate requirements are categorized into two (2) tiers based on severity. The appropriate response is determined by the tier of the breach and the Aligned Delegate’s prior record.
@@ -2280,6 +2266,20 @@ Claims of ignorance, misunderstanding, or failure to read proposal text shall no
 This rule applies only to votes cast in favor. Aligned Delegates who vote against or abstain retain the ability to raise concerns about proposal clarity or their understanding of its implications.
 
 The estoppel rule does not apply where the proposal text was materially misleading at the time of voting, or where critical facts bearing on the proposal’s governance implications emerged after the vote concluded. The burden of establishing that the proposal text was misleading or that newly discovered facts are material rests with the Aligned Delegate.
+
+#### A.1.5.6.0.3.1 - Act Swiftly - Element Annotation [Annotation]  <!-- UUID: 3a9d0848-e034-4d6b-8c4f-3d18e92edb71 -->
+
+The element "act swiftly" does not preclude reasonable delay where the Facilitator requires additional time to gather evidence, consult with the accused party, or seek guidance from Core GovOps. The Facilitator should document the basis for any such delay.
+
+#### A.1.5.6.0.3.2 - Credible Evidence - Element Annotation [Annotation]  <!-- UUID: 578ff359-eff1-406e-8cb9-5f4807598c10 -->
+
+The element "credible evidence" refers to the evidentiary threshold required for a formal allegation to proceed to adjudication. A formal allegation is supported by credible evidence where it identifies (a) the specific requirement or standard alleged to have been breached, (b) the factual basis for the allegation, and (c) any supporting evidence. Where an allegation fails to meet this threshold, the Core Facilitator may decline to initiate adjudication, provided the basis for declining is documented.
+
+#### A.1.5.6.0.4.1 - Facilitators’ Authority To Raise Formal Allegation [Action Tenet]  <!-- UUID: c5146fa6-00ec-4543-9288-410570b5d588 -->
+
+Any community member or Aligned Delegate with information pertinent to suspected Alignment Conserver misalignment may take their concerns directly to the Core Facilitator.  Upon receiving such information, the Core Facilitator must promptly conduct an initial review to quickly assess the credibility of the concern. Based on this preliminary review, the Core Facilitator must decide whether to initiate a formal adjudication process in accordance with [A.1.4.9 - Adjudication Process](560e1024-0897-4f1e-ae71-3ba31e29ed57).
+
+Where the allegation of misalignment concerns the Core Facilitator, a community member can take their concerns to Core GovOps, who is then empowered to initiate the formal adjudication process.
 
 ### A.1.5.7 - Mandate To Maintain High Level of Operational Security [Section]  <!-- UUID: c68b4c5d-adf7-49e6-850a-17a688664d40 -->
 
@@ -4903,7 +4903,7 @@ The Solana LayerZero Freezer Multisig has a 2/4 signing requirement.
 
 ###### A.1.9.4.1.3.1.2.3 - Solana LayerZero Freezer Multisig Signers [Core]  <!-- UUID: a9f95fb4-690e-43c2-a231-b8705d62036d -->
 
-The signers of the Solana LayerZero Freezer Multisig are two (2) addresses controlled by Operational GovOps Soter Labs and two (2) addresses controlled by Keel.
+The signers of the Solana LayerZero Freezer Multisig are two (2) addresses controlled by Operational GovOps Soter Labs and two (2) addresses controlled by Operational Facilitator Endgame Edge.
 
 ###### A.1.9.4.1.3.1.2.4 - Solana LayerZero Freezer Multisig Usage Standards [Core]  <!-- UUID: 9f845d09-4304-4aa7-8bd0-2dda747e52e6 -->
 
@@ -4915,11 +4915,11 @@ The Core Council must ensure that use of the multisig is generally aligned and s
 
 ###### A.1.9.4.1.3.1.2.5 - Solana LayerZero Freezer Multisig Modification [Core]  <!-- UUID: b70ebff7-355c-46c2-bc36-f08561c5ded1 -->
 
-Operational GovOps Soter Labs and Keel can change the signers of the Solana LayerZero Freezer Multisig so long as:
+Operational GovOps Soter Labs and Operational Facilitator Endgame Edge can change the signers of the Solana LayerZero Freezer Multisig so long as:
 
 - there are four (4) signers;
 - two (2) signers are required to execute transactions; and
-- an equal number of signers are controlled by Operational GovOps Soter Labs and Keel.
+- an equal number of signers are controlled by Operational GovOps Soter Labs and Operational Facilitator Endgame Edge.
 
 ###### A.1.9.4.1.3.2 - Rate Limits [Core]  <!-- UUID: 36626f77-52da-4bb6-9e32-851420133922 -->
 
@@ -9507,7 +9507,6 @@ The Active Data is updated as follows:
 The current Sky Direct Exposures are:
     
 - Treasury Bills - Investments by Grove in BUIDL, JTRSY, and USTB on Ethereum Mainnet
-- Collateralized Loan Obligations - Investments by Grove in JAAA on Ethereum Mainnet up to 325M USD
 - Peg Stability Modules - Investments by Spark or Grove in USDC in Peg Stability Modules on blockchains other than Ethereum Mainnet
 - Curve Pools - Investments by Spark in USDT in sUSDS/USDT Curve pools
 
@@ -9669,9 +9668,9 @@ The Operational Executor Facilitator reviews the proposal to ensure that it is c
 
 ###### A.2.2.9.1.1.2.2.3 - Official Update of Artifact [Core]  <!-- UUID: 2b1612b8-480c-49b3-a304-6a6f593340de -->
 
-If the Allocation Instance is successfully approved, the Operational Executor Facilitator finalizes and publishes the update to the Prime Agent Artifact, making it effective in the Atlas. The output of this step is an updated Prime Agent Artifact with the new Allocation Instance. 
+If the Allocation Instance is successfully approved, the Operational Executor Facilitator finalizes and publishes the update to the Prime Agent Artifact, making it effective in the Atlas. The output of this step is an updated Prime Agent Artifact with the new Allocation Instance.
 
-Once a new Instance is deployed, its data is integrated into risk-capital monitoring systems and its RRC will be officially determined and tracked via the Sky Core RRC Dashboard/API. See [A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard And API](4eac2c9e-2718-4881-a3f1-ed10fb3f4d13). This official RRC figure supersedes the Prime-prepared pro-forma RRC.
+Once a new Instance is deployed, its data is integrated into risk-capital monitoring systems and its RRC will be officially determined and tracked via the Sky Core RRC Dashboard. See [A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard](4eac2c9e-2718-4881-a3f1-ed10fb3f4d13). This official RRC figure supersedes the Prime-prepared pro-forma RRC.
 
 ###### A.2.2.9.1.1.2.3 - Instance Setup Deployments [Core]  <!-- UUID: 3766cb8c-ab6c-41af-9465-b8dea76d0532 -->
 
@@ -9705,28 +9704,28 @@ The documents herein define Risk Capital and Asset Liability Management requirem
 
 The documents herein detail the obligations, processes, standards and infrastructure related to risk-capital management.
 
-###### A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard And API [Core]  <!-- UUID: 4eac2c9e-2718-4881-a3f1-ed10fb3f4d13 -->
+###### A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard [Core]  <!-- UUID: 4eac2c9e-2718-4881-a3f1-ed10fb3f4d13 -->
 
-The Sky Core Required Risk Capital (RRC) Dashboard and its associated API serve as the official system for determining and disseminating RRC figures for Prime Agents and their Allocation System Primitive Instances.
+The Sky Core Required Risk Capital (RRC) Dashboard serves as the official system for determining and disseminating RRC figures for Prime Agents and their Allocation System Primitive Instances.
 
-Prior to the full operational deployment of the Powerhouse system, Prime Agents must utilize the Sky Core RRC Dashboard/API as the authoritative source for their official Instance Total RRCs and Aggregate RRC. Data from these sources is to be used for all internal TRC management,  required reporting and compliance assessments.
+Prior to the full operational deployment of the Powerhouse system, Prime Agents must utilize the Sky Core RRC Dashboard as the authoritative source for their official Instance Total RRCs and Aggregate RRC. Data from this source is to be used for all internal TRC management, required reporting and compliance assessments.
 
-The Sky Core RRC Dashboard is located at [https://sphere.blockanalitica.com/rrc](https://sphere.blockanalitica.com/rrc). The Sky Core RRC API is located at [https://sphere-api.blockanalitica.com/rrc/](https://sphere-api.blockanalitica.com/rrc/).
+The Sky Core RRC Dashboard is located at [https://info.sky.money/required-risk-capital](https://info.sky.money/required-risk-capital).
 
-###### A.2.2.9.1.1.3.2.1.1.1 - Role and Functionality of the RRC Dashboard and API [Core]  <!-- UUID: f7da0f56-00f5-4bcf-bd31-b77c284c7992 -->
+###### A.2.2.9.1.1.3.2.1.1.1 - Role and Functionality of the RRC Dashboard [Core]  <!-- UUID: f7da0f56-00f5-4bcf-bd31-b77c284c7992 -->
 
-The RRC Dashboard provides a user interface for Prime Agents to view their official RRC figures. The RRC API allows Prime Agents to programmatically access this same data for integration into their internal TRC management systems. Both the Dashboard and API provide the following key information:
+The RRC Dashboard provides a user interface for Prime Agents to view their official RRC figures. The Dashboard provides the following key information:
+
+- Instance Total RRC: For each specific Allocation System Primitive Instance, the system displays its Instance Total RRC. This figure is the sum of all applicable risk-specific RRC calculations for that Instance, including:
+ - Instance Financial RRC ([A.3.2.1.1.4 - Instance Financial RRC](ba1d5c0e-399f-47a6-b5d4-b3f5477d5787))
+ - Instance Smart Contract RRC ([A.3.2.1.1.5 - Instance Smart Contract RRC](4b4ea578-28b4-481c-9abd-d34c5a4f383c))
+ - Instance Administrative RRC ([A.3.2.1.1.6 - Instance Administrative RRC](c2b60f0d-6555-463c-9ad3-2a9746be77c5))
+
+The models for certain risk-factors are still currently under development. See [A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard Coverage](18243e7a-5b62-459d-83fb-e50b9df05f9d). 
     
-◦ Instance Total RRC: For each specific Allocation System Primitive Instance, the system displays its Instance Total RRC. This figure is the sum of all applicable risk-specific RRC calculations for that Instance, including:
-        ◦ Instance Financial RRC ([A.3.2.1.1.4 - Instance Financial RRC](ba1d5c0e-399f-47a6-b5d4-b3f5477d5787)) 
-        ◦ Instance Smart Contract RRC ([A.3.2.1.1.5 - Instance Smart Contract RRC](4b4ea578-28b4-481c-9abd-d34c5a4f383c))  
-        ◦ Instance Administrative RRC ([A.3.2.1.1.6 - Instance Administrative RRC](c2b60f0d-6555-463c-9ad3-2a9746be77c5)) 
+- Aggregate RRC: For each Prime Agent, the system displays its Aggregate RRC, which is the sum of all its Instance Total RRCs. This is the figure against which a Prime Agent’s Total Risk Capital (TRC) adequacy is assessed.
 
-The models for certain risk-factors are still currently under development. See [A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard/API Coverage](18243e7a-5b62-459d-83fb-e50b9df05f9d). 
-    
-◦ Aggregate RRC: For each Prime Agent, the system displays its Aggregate RRC, which is the sum of all its Instance Total RRCs. This is the figure against which a Prime Agent’s Total Risk Capital (TRC) adequacy is assessed.
-
-###### A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard/API Coverage [Core]  <!-- UUID: 18243e7a-5b62-459d-83fb-e50b9df05f9d -->
+###### A.2.2.9.1.1.3.2.1.1.2 - Interim Notice Regarding RRC Dashboard Coverage [Core]  <!-- UUID: 18243e7a-5b62-459d-83fb-e50b9df05f9d -->
 
 Some Allocation System Instances displayed on the RRC Dashboard concern asset types whose risk models have not yet been fully developed. See [A.3.2.1.1.4.3 - Financial Risk Models](2af9fa64-ab25-4017-920c-f1c07dff4c06). An active Instance’s respective Instance Configuration Document will specify its `RRC Framework Full Implementation` status as either `Covered` or `Pending`.
 
@@ -9752,21 +9751,20 @@ A Prime Agent’s internal TRC management system should possess the following ca
 The system must provide real-time or near real-time tracking of all held Total Risk Capital (TRC) components. This includes, for each TRC component:
         ◦ Accurate valuation of the assets comprising each component.
         ◦ Clear identification of the source of each component (e.g., Prime’s own SubProxy for IJRC, specific Ecosystem Accord references for rented SEJRC or OSRC, TEJRC encumbrance details, OSRC origination details).
-        ◦ Verification of each TRC component’s eligibility status according to Atlas rules. This includes tracking whether capital is "enabled" or "active" for RRC coverage purposes (e.g., based on Ecosystem Accord status, compliance with sourcing ratios, etc.).
+        ◦ Verification of each TRC component’s eligibility status according to Atlas rules. This includes tracking whether capital is “enabled” or “active” for RRC coverage purposes (e.g., based on Ecosystem Accord status, compliance with sourcing ratios, etc.).
         ◦ Distinction between capital directly held by the Prime Agent and capital that is encumbered (e.g., SEJRC where the lending Prime retains custody but the capital is contractually committed).
     
-2. Prime Agents’ internal TRC management systems should enable dynamic-state accounting. The system must account for TRC components that are in dynamic, pending, or off-chain states, as these can impact the true risk capital available to a Prime Agent. This includes:
+2. Prime Agents' internal TRC management systems should enable dynamic-state accounting. The system must account for TRC components that are in dynamic, pending, or off-chain states, as these can impact the true risk capital available to a Prime Agent. This includes:
         ◦ Pending transactions such as SEJRC or OSRC rental Ecosystem Accords that have been committed to by the parties, but not yet codified in the Atlas.
         ◦ Capital in transit, e.g., assets that are committed to be IJRC, but currently moving between chains via bridges or locked in Cross-Chain Transfer Protocol (CCTP) messages awaiting finality.
         ◦ Operational expenditures funded by TRC components (typically IJRC), such as blockchain transaction fees, oracle service fees, audit costs, and other operational overhead that reduces available risk capital. The system should track these expenditures in real-time or near real-time.
         ◦ Any off-chain factors that could impair the immediate deployability or availability of TRC components.
     
-3. Prime Agents’ internal TRC management systems should enable continuous capital adequacy monitoring. The system must enable the near real-time comparison of the Prime Agent’s internally tracked and calculated TRC against its official Aggregate RRC, as obtained from the Sky Core RRC Dashboard/API. See [A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard And API](4eac2c9e-2718-4881-a3f1-ed10fb3f4d13). This core functionality is essential for the Prime Agent to proactively monitor its capital adequacy, identify potential or actual TRC shortfalls, and make timely operational and capital management decisions to maintain compliance.
+3. Prime Agents' internal TRC management systems should enable continuous capital adequacy monitoring. The system must enable the near real-time comparison of the Prime Agent's internally tracked and calculated TRC against its official Aggregate RRC, as obtained from the Sky Core RRC Dashboard. See [A.2.2.9.1.1.3.2.1.1 - Sky Core Required Risk Capital (RRC) Dashboard](4eac2c9e-2718-4881-a3f1-ed10fb3f4d13). This core functionality is essential for the Prime Agent to proactively monitor its capital adequacy, identify potential or actual TRC shortfalls, and make timely operational and capital management decisions to maintain compliance.
     
-4. Prime Agents’ internal TRC management systems should define a RRC-incident (e.g., TRC shortfall) response protocol. The system should enable internal alerting mechanisms that detect when a Prime Agent’s TRC approaches predefined internal buffer thresholds relative to its Aggregate RRC. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9). The system should also detect an actual shortfall where the Prime Agent’s held TRC falls below its Aggregate RRC.
-Furthermore, Prime Agent teams should establish and document internal processes for responding to such alerts. Such internal processes should include: 1) internal escalation and assessment of the shortfall’s cause and magnitude; 2) formulation of potential responses or corrective actions, which may include sourcing additional TRC, reducing risk-weighted exposures, or other measures; 3) internal decision-making framework for the evaluation of potential responses and selection of the most appropriate one; and 4) notifying any pertinent parties (Operational GovOps) as needed for the purpose of planning or implementing follow-up action.
+4. Prime Agents' internal TRC management systems should define a RRC-incident (e.g., TRC shortfall) response protocol. The system should enable internal alerting mechanisms that detect when a Prime Agent’s TRC approaches predefined internal buffer thresholds relative to its Aggregate RRC. See [A.3.2.2.7.2.1.1.1 - Encumbrance Ratio](5435f680-aaaa-461a-bcae-4056bb8964d9). The system should also detect an actual shortfall where the Prime Agent’s held TRC falls below its Aggregate RRC. Furthermore, Prime Agent teams should establish and document internal processes for responding to such alerts. Such internal processes should include: 1) internal escalation and assessment of the shortfall’s cause and magnitude; 2) formulation of potential responses or corrective actions, which may include sourcing additional TRC, reducing risk-weighted exposures, or other measures; 3) internal decision-making framework for the evaluation of potential responses and selection of the most appropriate one; and 4) notifying any pertinent parties (Operational GovOps) as needed for the purpose of planning or implementing follow-up action.
 
-Prime Agent teams’ internal decision-making framework may consider the economic trade-offs of various actions, including the strategic acceptance of penalties for a TRC shortfall where such an approach is determined to be economically advantageous compared to immediate rebalancing (e.g., avoiding excessive transaction costs or market impact).
+Prime Agent teams' internal decision-making framework may consider the economic trade-offs of various actions, including the strategic acceptance of penalties for a TRC shortfall where such an approach is determined to be economically advantageous compared to immediate rebalancing (e.g., avoiding excessive transaction costs or market impact).
 
 ###### A.2.2.9.1.1.3.2.1.2.3 - Primes’ TRC Report [Core]  <!-- UUID: 41ca2085-d71b-47e5-8b1a-b183b6e2b6fc -->
 
@@ -9900,7 +9898,9 @@ The Prime Agent's revised Capital and Operational Plan forms the core of the Art
 
 ###### A.2.2.9.1.1.3.3.1.4 - Post-Approval Integration and RRC Update [Core]  <!-- UUID: e3a00c33-9da7-4fa9-80ff-55d3a70100fa -->
 
-If the Artifact Edit Proposal for the Instance modification is approved through the Prime Agent's governance process, the relevant content from the revised Capital and Operational Plan is formally integrated into the respective Instance Configuration Document within the Prime Agent's Artifact. Once the modified Instance is operational under its new, approved parameters and its data is integrated into the ecosystem's monitoring systems, its adjusted Required Risk Capital (RRC) will be officially determined and tracked via the Sky Core RRC Dashboard/API. This official RRC figure then supersedes the Prime-prepared pro-forma RRC that was part of the modification proposal.
+If the Artifact Edit Proposal for the Instance modification is approved through the Prime Agent’s governance process, the relevant content from the revised Capital and Operational Plan is formally integrated into the respective Instance Configuration Document within the Prime Agent's Artifact.
+
+Once the modified Instance is operational under its new, approved parameters and its data is integrated into the ecosystem’s monitoring systems, its adjusted Required Risk Capital (RRC) will be officially determined and tracked via the Sky Core RRC Dashboard. This official RRC figure then supersedes the Prime-prepared pro-forma RRC that was part of the modification proposal.
 
 ##### A.2.2.9.1.2 - Allocation System Input Requirements [Core]  <!-- UUID: b6ccdee2-a5e4-4d63-9af5-60b8163673af -->
 
@@ -10423,7 +10423,7 @@ In the short term, Step 4 Capital is allocated as specified in the documents her
 
 ###### A.2.3.1.4.2.1 - Allocation To SKY Buybacks [Core]  <!-- UUID: b9f2fd14-bc43-4bdd-94aa-2a5defefa97d -->
 
-300,000 USDS per day of Step 4 Capital is allocated to SKY buybacks.
+37,600 USDS per day of Step 4 Capital is allocated to SKY buybacks.
 
 ###### A.2.3.1.4.2.2 - Allocation To Surplus Buffer [Core]  <!-- UUID: e2eae80f-ca25-4fab-880a-3a55ca1aa16d -->
 
@@ -12574,7 +12574,7 @@ Sky Ecosystem is adopting the Security Alliance Safe Harbor Agreement ("Safe Har
 
 ##### A.2.11.1.2.1 - Agreement [Core]  <!-- UUID: c3705a82-9cda-4626-89bb-2ec21774b371 -->
 
-Safe Harbor is an onchain agreement. The agreement is specified in [https://etherscan.io/address/0x9E5Cf4a9C806fE1F4392788b21342a442E14Cc20#readContract#F2](https://etherscan.io/address/0x9E5Cf4a9C806fE1F4392788b21342a442E14Cc20#readContract#F2). The agreement located at the IPFS address shown in the smart contract above is the definitive version of the agreement.
+Safe Harbor is an onchain agreement. The agreement is specified in [https://etherscan.io/address/0xf17bb418b4ec251f300aa3517cb37349f17697a1#readContract#F2](https://etherscan.io/address/0xf17bb418b4ec251f300aa3517cb37349f17697a1#readContract#F2). The agreement located at the IPFS address shown in the smart contract above is the definitive version of the agreement.
 
 ##### A.2.11.1.2.2 - Execution [Core]  <!-- UUID: 25015208-5234-4818-8479-c46f927c272c -->
 
@@ -12586,7 +12586,7 @@ The address of the Safe Harbor registry contract on the Ethereum Mainnet is `0x3
 
 ###### A.2.11.1.2.2.2 - Agreement Address [Core]  <!-- UUID: 0f541963-584d-4bcd-8c00-adbbcb85edf8 -->
 
-The address of the Safe Harbor agreement is `0x9E5Cf4a9C806fE1F4392788b21342a442E14Cc20`.
+The address of the Safe Harbor agreement is `0xf17bB418B4EC251f300Aa3517Cb37349f17697A1`.
 
 ###### A.2.11.1.2.2.3 - Execution Parameters [Core]  <!-- UUID: b061e1d9-76c3-444a-9a91-641c5d00315d -->
 
@@ -12643,9 +12643,9 @@ The Asset Recovery Address is the Pause Proxy on Ethereum Mainnet and the Govern
 
 - Ethereum Mainnet - `0xbe8e3e3618f7474f8cb1d074a26affef007e98fb`
 - Arbitrum - `0x10E6593CDda8c58a1d0f14C5164B376352a55f2F`
-- Optimism - `0x09b354cda89203bb7b3131cc728dfa06ab09ae2f`
+- Optimism - `0x10E6593CDda8c58a1d0f14C5164B376352a55f2F`
 - Base - `0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255`
-- Unichain - `0xb383070cf9f4f01c3a2cfd0ef6da4bc057b429b7`
+- Unichain - `0x3510a7F16F549EcD0Ef018DE0B3c2ad7c742990f`
 - Solana - `AYPtjx4Hc8us1ikULUedkmZ3wtiD6tmL7gK3qe4V3oHt`
 
 ###### A.2.11.1.2.2.3.3.3 - Accounts [Core]  <!-- UUID: c6591c5c-c767-4769-b2d6-80564d96fa48 -->
@@ -12662,7 +12662,7 @@ The representatives of the protocol should be contacted as specified in the Safe
 
 ###### A.2.11.1.2.2.3.5 - Protocol Name Parameter [Core]  <!-- UUID: 3ecab562-7477-4606-bce3-74da81dc78e6 -->
 
-The `protocolName` parameter specifies a human-readable name for the protocol. The value of the `protocolName` parameter is "Sky Ecosystem".
+The `protocolName` parameter specifies a human-readable name for the protocol. The value of the `protocolName` parameter is “Sky”.
 
 ##### A.2.11.1.2.3 - Maintenance [Core]  <!-- UUID: fcd868db-4a91-4ee0-baf5-1ebd40fc651e -->
 
@@ -15617,18 +15617,12 @@ The current value of the Surplus Buffer can be calculated using the Vat contract
 The current Smart Burn Engine parameters are:
 
 - kicker.khump: -200 million USDS (Threshold of Surplus Buffer for Splitter to activate)
-
-- kicker.kbump: 10,000 USDS
-
-- splitter.hop: 2,880 seconds
-
+- kicker.kbump: 6,000 USDS
+- splitter.hop: 13,787 seconds
 - 100% of Splitter allocation is set to accumulate SKY
-
 - 0% of Splitter allocation is set to reward SKY stakers
-
 - burn (the percentage of the kicker.kbump to be moved to the underlying flapper): 100% (WAD * 1)
-
-- LSEV2-SKY-A USDS rewardsDuration: 2,880 seconds
+- LSEV2-SKY-A USDS rewardsDuration: 13,787 seconds
 
 The rewardsDuration for the LSEV2-SKY-A USDS rewards contract must be set such that it is equal to the splitter.hop parameter.
 
@@ -17477,7 +17471,7 @@ The parameters of the vesting stream that vests SKY Tokens to be transferred to 
 
 ###### A.4.4.1.4.2.2 - Source Of SKY Rewards [Core]  <!-- UUID: 349a350c-c9b7-4232-a83f-2fb49b91fc74 -->
 
-The `vestTot` and `vestTau` parameters of the Vesting Stream contract are set such that SKY rewards are funded by SKY acquired through buybacks and the parameters of the Vesting Stream contract must be adjusted accordingly.
+The `vestTot` and `vestTau` parameters of the Vesting Stream contract are set such that SKY rewards are funded by SKY acquired through buybacks or SKY reserves.
 
 ###### A.4.4.1.4.2.2.1 - Authorization Of Transfer By Sky Frontier Foundation [Core]  <!-- UUID: 2789177b-5bc7-486f-8aab-75ea16e21035 -->
 
@@ -17644,21 +17638,18 @@ Full block requires frontends operated by Ecosystem Actors to deny service of an
 User IPs flagged for Full Block are:
 
 - Cuba
-
 - Iran
-
 - Syria
-
 - North Korea
-
+- Afghanistan
+- Belarus
+- Burma
+- Russia
+- Venezuela
 - Crimea and Sevastopol
-
 - Donetsk People’s Republic
-
 - Luhansk People’s Republic of Ukraine
-
 - Kherson Oblast
-
 - Zaporizhzhia Oblast
 
 ## A.5.5 - Short-Term Transitionary Measures [Article]  <!-- UUID: b28aecff-e420-473f-893a-9c31510f5845 -->
@@ -19249,7 +19240,7 @@ This Instance's associated Instance Configuration Document is located at [A.6.1.
 
 ###### A.6.1.1.1.2.6.1.1.2.1.11.4 - Ethereum Mainnet - Spark Savings v2 PYUSD Instance Configuration Document Location [Core]  <!-- UUID: 3dabe1bb-244d-4546-993a-449b988d9199 -->
 
-This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Spark Savings v2 spPYUSD Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.9.4](0b280652-ea99-4a53-8c9e-fb23b200d446).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.9.4 - Ethereum Mainnet - Spark Savings v2 spPYUSD Instance Configuration Document](0b280652-ea99-4a53-8c9e-fb23b200d446).
 
 ###### A.6.1.1.1.2.6.1.1.2.1.12 - Arkis [Core]  <!-- UUID: 8e76f6f2-fb70-4ed0-a78d-7be94244819b -->
 
@@ -19257,19 +19248,19 @@ The Ethereum Instances Directory of the Arkis Protocol with `Active` Status are 
 
 ###### A.6.1.1.1.2.6.1.1.2.1.12.1 - Ethereum Mainnet - Arkis Instance Configuration Document Location [Core]  <!-- UUID: a25915c0-0fc4-48f7-845b-92f446dbbba3 -->
 
-This Instance's associated Instance Configuration Document is located at [Ethereum Mainnet - Arkis Instance Configuration Document - A.6.1.1.1.2.6.1.3.1.10.1](4bb58af1-fc25-442f-83a9-dd40989a7d37).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.10.1 - Ethereum Mainnet - Arkis Instance Configuration Document](4bb58af1-fc25-442f-83a9-dd40989a7d37).
 
-###### A.6.1.1.1.2.6.1.1.2.1.12 - Uniswap v4 [Core]  <!-- UUID: 4ef25928-26c1-4864-9670-88c5d676b8e4 -->
+###### A.6.1.1.1.2.6.1.1.2.1.13 - Uniswap v4 [Core]  <!-- UUID: 4ef25928-26c1-4864-9670-88c5d676b8e4 -->
 
 The Ethereum Mainnet Instances Directory of the Uniswap v4 with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.1.2.1.12.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 5e1d4f42-84aa-4907-ad6f-eb62b26d28e3 -->
+###### A.6.1.1.1.2.6.1.1.2.1.13.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 5e1d4f42-84aa-4907-ad6f-eb62b26d28e3 -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.10.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document](c5d16727-69f7-454a-a3da-85c46dd9eed2).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.11.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document](c5d16727-69f7-454a-a3da-85c46dd9eed2).
 
-###### A.6.1.1.1.2.6.1.1.2.1.12.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 55e7dee1-dab9-4bc6-b8db-9aa8191597a1 -->
+###### A.6.1.1.1.2.6.1.1.2.1.13.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document Location [Core]  <!-- UUID: 55e7dee1-dab9-4bc6-b8db-9aa8191597a1 -->
 
-This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.10.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document](3c4cfb29-1579-4abe-a17b-5b5574972b73).
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.11.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document](3c4cfb29-1579-4abe-a17b-5b5574972b73).
 
 ###### A.6.1.1.1.2.6.1.1.2.2 - Base [Core]  <!-- UUID: 305a6351-bb16-4e4d-8912-7ef1c3ff26bb -->
 
@@ -19329,7 +19320,7 @@ The Avalanche Instances Directory of the Aave Protocol with `Active` Status ar
 
 ###### A.6.1.1.1.2.6.1.1.2.4.1.1 - Avalanche - Aave v3 USDC Vault Instance Configuration Document Location [Core]  <!-- UUID: 85bc9184-abf0-4767-ae07-cda159c63f6f -->
 
-This Instance's associated Instance Configuration Document is located at
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.4.1.1 - Avalanche - Aave v3 USDC Vault Instance Configuration Document](ae06054a-1ed8-410b-983d-1789b49f1f19).
 
 ###### A.6.1.1.1.2.6.1.1.2.4.2 - Spark Savings V2 [Core]  <!-- UUID: 805d95ac-c6fa-4326-bade-380c3635306c -->
 
@@ -19337,7 +19328,7 @@ The Avalanche Instances Directory of the Spark Savings v2 Protocol with `Active
 
 ###### A.6.1.1.1.2.6.1.1.2.4.2.1 - Avalanche - Spark Savings v2 USDC Instance Configuration Document Location [Core]  <!-- UUID: 82ccfe21-2172-41cc-b845-231ed61b101d -->
 
-This Instance's associated Instance Configuration Document is located at
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.4.2.1 - Avalanche - Spark Savings v2 USDC Instance Configuration Document](afa35a43-18e2-4084-b36c-eb584f4749ac)
 
 ###### A.6.1.1.1.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 1df4d054-4443-4c64-b34b-c9fce456276b -->
 
@@ -20785,7 +20776,7 @@ In order to withdraw all ERC-4626 balances, the operator must execute the follow
 
 `foreignController.redeemERC4626(address(token), token.balanceOf(address(proxy)))
 `
-For more detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.2 - Withdraw ERC-4626 Tokens](49e470dc-9619-4a41-897f-1e1aa532f21b) and [A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.4 - Redeem ERC-4626 Tokens](075178b0-d311-43bc-b3c9-37af4c9dffe5).
+For more detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.2 - Withdraw ERC-4626 Tokens](c2bbf44a-496c-4cf6-b0f6-25f77e66465b) and [A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.3 - Redeem ERC-4626 Tokens](ab5eb90f-1007-4560-a0ea-1c25d433c602).
 
 ###### A.6.1.1.1.2.6.1.2.2.3.2.2 - ERC-4626 Withdrawal Action [Core]  <!-- UUID: 29bb82e9-a308-448f-ace1-e8b0397a0995 -->
 
@@ -23288,7 +23279,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.8.2.4.2 - Timelock [Core]  <!-- UUID: bf0333e1-219a-4dc2-89d9-0ac64907c3d2 -->
 
-Timelock: 240 hours (10 days) 
+Timelock: 240 hours (10 days)
 
 ###### A.6.1.1.1.2.6.1.3.1.8.3 - Ethereum Mainnet - Morpho USDC Instance Configuration Document [Core]  <!-- UUID: f3063596-4f85-4a51-b52c-58221d043d3e -->
 
@@ -23856,7 +23847,7 @@ The documents herein define the parameters of the Arkis Instance of the Allocati
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 4aafd731-9770-4f4c-925a-7f54fcca8327 -->
 
-The documents herein define the Instance identifiers
+The documents herein define the Instance identifiers.
 
 ###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.1 - Network [Core]  <!-- UUID: cc527da6-8dce-4165-a1ea-22075da1b3e2 -->
 
@@ -23929,191 +23920,191 @@ The Instance Capital Requirement Ratio for all Interim Deployments in Arkis is 1
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
-###### A.6.1.1.1.2.6.1.3.1.10 - Uniswap v4 [Core]  <!-- UUID: 6c5c956c-608f-40aa-9911-d1c04df4f99e -->
+###### A.6.1.1.1.2.6.1.3.1.11 - Uniswap v4 [Core]  <!-- UUID: 6c5c956c-608f-40aa-9911-d1c04df4f99e -->
 
 The Ethereum Mainnet Instances of the Uniswap v4 Protocol with `Active` Status are stored herein.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document [Core]  <!-- UUID: c5d16727-69f7-454a-a3da-85c46dd9eed2 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1 - Ethereum Mainnet - Uniswap v4 PYUSD/USDS Pool Instance Configuration Document [Core]  <!-- UUID: c5d16727-69f7-454a-a3da-85c46dd9eed2 -->
 
 The documents herein contain the Instance Configuration Document for the Uniswap v4 PYUSD/USDS Pool Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: bd5042f9-cd5d-4574-b868-d0b9ad247a3a -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: bd5042f9-cd5d-4574-b868-d0b9ad247a3a -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2 - Parameters [Core]  <!-- UUID: 4139b0ae-87f7-4b3f-aa48-78ee8efc1047 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2 - Parameters [Core]  <!-- UUID: 4139b0ae-87f7-4b3f-aa48-78ee8efc1047 -->
 
 The documents herein define the parameters of the Uniswap v4 PYUSD/USDS Pool Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 7efb34f5-5007-4ab4-93e7-e00e616df5b3 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 7efb34f5-5007-4ab4-93e7-e00e616df5b3 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.1 - Network [Core]  <!-- UUID: 94de254f-7f5e-4e40-a683-26935e3503ed -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.1.1 - Network [Core]  <!-- UUID: 94de254f-7f5e-4e40-a683-26935e3503ed -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 61fb4454-3c58-4757-b796-cc9890685e71 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.1.2 - Target Protocol [Core]  <!-- UUID: 61fb4454-3c58-4757-b796-cc9890685e71 -->
 
 Uniswap v4
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 967a9605-4d90-46a7-a4bd-1ebcd7192b70 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 967a9605-4d90-46a7-a4bd-1ebcd7192b70 -->
 
 USDS and PYUSD
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.1.4 - Token [Core]  <!-- UUID: 4d4123a0-312b-4351-aecc-28e56b1de290 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.1.4 - Token [Core]  <!-- UUID: 4d4123a0-312b-4351-aecc-28e56b1de290 -->
 
 PYUSDUSDS
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.2 - Contract Addresses [Core]  <!-- UUID: fda1c342-7d97-4674-a383-d32544990ae9 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.2 - Contract Addresses [Core]  <!-- UUID: fda1c342-7d97-4674-a383-d32544990ae9 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.2.1 - Token Address [Core]  <!-- UUID: df34137f-2994-48fb-ba1d-1c533b1fc305 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.2.1 - Token Address [Core]  <!-- UUID: df34137f-2994-48fb-ba1d-1c533b1fc305 -->
 
 `0xa632d59b9b804a956bfaa9b48af3a1b74808fc1f`
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.2.2 - Pool ID [Core]  <!-- UUID: 1ec43acc-0aba-4e5e-96f9-cb6c4143c7f3 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.2.2 - Pool ID [Core]  <!-- UUID: 1ec43acc-0aba-4e5e-96f9-cb6c4143c7f3 -->
 
 `0xe63e32b2ae40601662f760d6bf5d771057324fbd97784fe1d3717069f7b75d45`
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7b94ebfe-42c9-4319-80ff-d57258f5773c -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7b94ebfe-42c9-4319-80ff-d57258f5773c -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4 - Rate Limits [Core]  <!-- UUID: 689f87d9-e66b-4eab-b984-9ad21ed4bb59 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4 - Rate Limits [Core]  <!-- UUID: 689f87d9-e66b-4eab-b984-9ad21ed4bb59 -->
 
 The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 02ca893e-879e-47fa-a2f1-ca783ccf2106 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 02ca893e-879e-47fa-a2f1-ca783ccf2106 -->
 
 The inflow rate limits are:
 - `maxAmount`: 10,000,000
 - `slope`: 100,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 7b1bcd5c-8af6-46bd-8fb0-cbac22bae80a -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 7b1bcd5c-8af6-46bd-8fb0-cbac22bae80a -->
 
 The outflow rate limits are:
 - `maxAmount`: 50,000,000
 - `slope`: 200,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 1a2ba197-1389-4cdd-8e55-ca950ecacdca -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 1a2ba197-1389-4cdd-8e55-ca950ecacdca -->
 
 The swap rate limits are:
 - `maxAmount`: 5,000,000
 - `slope`: 50,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.4 - Maximum Slippage [Core]  <!-- UUID: 0318bf34-70a0-42a0-9019-e5a48de96ec6 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.4 - Maximum Slippage [Core]  <!-- UUID: 0318bf34-70a0-42a0-9019-e5a48de96ec6 -->
 
 Max slippage: 0.1%
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.5 - Tick Range and Width [Core]  <!-- UUID: 9e8e50cc-eb69-43f4-b0d6-dd2f0c4fc01a -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.5 - Tick Range and Width [Core]  <!-- UUID: 9e8e50cc-eb69-43f4-b0d6-dd2f0c4fc01a -->
 
 - Min lower tick limit: 276,314 (-0.1%)
 - Max upper tick limit: 276,334 (+0.1%)
 - Max tick width: 10 ticks
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.4.6 - Swap Fee [Core]  <!-- UUID: 3c776b0d-7ab4-4949-993e-ce290341654d -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.4.6 - Swap Fee [Core]  <!-- UUID: 3c776b0d-7ab4-4949-993e-ce290341654d -->
 
 0.0005%
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 809b7844-1e15-4e43-bc33-b0af6074a725 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 809b7844-1e15-4e43-bc33-b0af6074a725 -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.10.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c8bfb680-b56f-4cd2-835c-4fdec23be484 -->
+###### A.6.1.1.1.2.6.1.3.1.11.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: c8bfb680-b56f-4cd2-835c-4fdec23be484 -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
-###### A.6.1.1.1.2.6.1.3.1.10.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document [Core]  <!-- UUID: 3c4cfb29-1579-4abe-a17b-5b5574972b73 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2 - Ethereum Mainnet - Uniswap v4 USDT/USDS Pool Instance Configuration Document [Core]  <!-- UUID: 3c4cfb29-1579-4abe-a17b-5b5574972b73 -->
 
 The documents herein contain the Instance Configuration Document for the Uniswap v4 USDT/USDS Pool Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 686428f2-87e7-4592-8656-60ab5bee3168 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 686428f2-87e7-4592-8656-60ab5bee3168 -->
 
 **`Pending`**
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2 - Parameters [Core]  <!-- UUID: d46584b0-4ec1-4450-b915-79969d7c3c74 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2 - Parameters [Core]  <!-- UUID: d46584b0-4ec1-4450-b915-79969d7c3c74 -->
 
 The documents herein define the parameters of the Uniswap v4 USDT/USDS Pool Instance of the Allocation System Primitive.
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 0845627e-c64a-4e04-8be2-4f5bac7114d2 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 0845627e-c64a-4e04-8be2-4f5bac7114d2 -->
 
 The documents herein define the Instance identifiers
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.1 - Network [Core]  <!-- UUID: 6d1a7aa5-3aab-461b-a0ab-aa68137ffd0d -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.1.1 - Network [Core]  <!-- UUID: 6d1a7aa5-3aab-461b-a0ab-aa68137ffd0d -->
 
 Ethereum Mainnet
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 1fdf2ecf-e70e-4294-91de-1596f991ca2a -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 1fdf2ecf-e70e-4294-91de-1596f991ca2a -->
 
 Uniswap v4
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 13b49366-aaee-4f35-b2cd-e2317bc4b92c -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.1.3 - Asset Supplied By SLL [Core]  <!-- UUID: 13b49366-aaee-4f35-b2cd-e2317bc4b92c -->
 
 USDS and USDT
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.1.4 - Token [Core]  <!-- UUID: a877ea22-2aae-451e-b0d6-912fdaca1796 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.1.4 - Token [Core]  <!-- UUID: a877ea22-2aae-451e-b0d6-912fdaca1796 -->
 
 USDTUSDS
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.2 - Contract Addresses [Core]  <!-- UUID: 164e3bb8-8a61-41b7-9d34-797db864ac87 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.2 - Contract Addresses [Core]  <!-- UUID: 164e3bb8-8a61-41b7-9d34-797db864ac87 -->
 
 The documents herein define the Instance contract addresses.
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.2.1 - Token Address [Core]  <!-- UUID: c864e1c5-a653-433b-85e5-3bd1037fc7a1 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.2.1 - Token Address [Core]  <!-- UUID: c864e1c5-a653-433b-85e5-3bd1037fc7a1 -->
 
 `0x00836Fe54625BE242BcFA286207795405ca4fD10`
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.2.2 - Pool ID [Core]  <!-- UUID: 6e231bfb-e04f-44e0-9023-7ab98c9b7568 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.2.2 - Pool ID [Core]  <!-- UUID: 6e231bfb-e04f-44e0-9023-7ab98c9b7568 -->
 
 `0x3b1b1f2e775a6db1664f8e7d59ad568605ea2406312c11aef03146c0cf89d5b9`
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 77850de8-afe7-47e2-aedd-e44de6922c6f -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 77850de8-afe7-47e2-aedd-e44de6922c6f -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow will be specified in a future iteration of the Spark Artifact.
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.4 - Rate Limits [Core]  <!-- UUID: 91ad3746-e58c-43b3-a53d-0430b5e20a4c -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4 - Rate Limits [Core]  <!-- UUID: 91ad3746-e58c-43b3-a53d-0430b5e20a4c -->
 
 The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s inflow/outflow/swap are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: a6105d1a-16d8-4920-808c-780891e2112d -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: a6105d1a-16d8-4920-808c-780891e2112d -->
 
 The inflow rate limits are:
 - `maxAmount`: 5,000,000
 - `slope`: 50,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 2a7d1855-feb9-4a16-b726-144f52c89dd3 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 2a7d1855-feb9-4a16-b726-144f52c89dd3 -->
 
 The outflow rate limits are:
 - `maxAmount`: 50,000,000
 - `slope`: 200,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 18355afe-c656-47a5-8867-206263d8cb09 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 18355afe-c656-47a5-8867-206263d8cb09 -->
 
 The swap rate limits are:
 - `maxAmount`: 5,000,000
 - `slope`: 50,000,000 per day
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.4 - Maximum Slippage [Core]  <!-- UUID: fa48928b-af8a-4455-88ac-43a68631e329 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.4 - Maximum Slippage [Core]  <!-- UUID: fa48928b-af8a-4455-88ac-43a68631e329 -->
 
 Max slippage: 0.2%
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.5 - Tick Range and Width [Core]  <!-- UUID: e72be948-a47e-4303-b9b2-d1acb07cecd4 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.5 - Tick Range and Width [Core]  <!-- UUID: e72be948-a47e-4303-b9b2-d1acb07cecd4 -->
 
 - Min lower tick limit: 276,304 (-0.2%)
 - Max upper tick limit: 276,344 (+0.2%)
 - Max tick width: 10 ticks
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.4.6 - Swap Fee [Core]  <!-- UUID: 9f92e7b7-83e6-4b0c-9f3d-6ec66a259c98 -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.4.6 - Swap Fee [Core]  <!-- UUID: 9f92e7b7-83e6-4b0c-9f3d-6ec66a259c98 -->
 
 0.0005%
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: bc14c22c-f7a7-4de9-afe9-4b121d05ee7a -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: bc14c22c-f7a7-4de9-afe9-4b121d05ee7a -->
 
 The documents herein contain specific off-chain parameters for this Instance.
 
-###### A.6.1.1.1.2.6.1.3.1.10.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: afd2544b-24de-439b-8d8f-44d5cd82a8bd -->
+###### A.6.1.1.1.2.6.1.3.1.11.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: afd2544b-24de-439b-8d8f-44d5cd82a8bd -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general SLL processes.
 
@@ -24225,11 +24216,11 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.1 - Curator Role Address [Core]  <!-- UUID: 921d59d4-baaf-45a8-b6ff-93aa879e0e41 -->
 
-0x0f963A8A8c01042B69054e787E5763ABbB0646A3
+`0x0f963A8A8c01042B69054e787E5763ABbB0646A3`
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4.2.2 - Guardian Role Address [Core]  <!-- UUID: edee318a-59b1-4ff1-9790-8d4606f2f7bd -->
 
-0xf5748bBeFa17505b2F7222B23ae11584932C908B
+`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
 
 ###### A.6.1.1.1.2.6.1.3.2.1.1.4.3 - Timelock [Core]  <!-- UUID: 63f24280-1724-4d2c-a0b8-aa8a2381afb8 -->
 
