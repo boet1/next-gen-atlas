@@ -4515,17 +4515,17 @@ The Risk parameters are:
 
 ###### A.6.1.1.1.2.6.1.3.1.4.1.4.2.2 - Rate Limits [Core]  <!-- UUID: e4e8eee4-c449-4adc-aae7-d7fa31f311e0 -->
 
-The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
+The current `maxAmount` for this conduit's take and transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.4.1.4.2.3 - Take Rate Limits [Core]  <!-- UUID: d516e83f-017b-45ac-88bc-67c4a8eb3e57 -->
+###### A.6.1.1.1.2.6.1.3.1.4.1.4.2.2.1 - Take Rate Limits [Core]  <!-- UUID: d516e83f-017b-45ac-88bc-67c4a8eb3e57 -->
 
 The take rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.1.4.1.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: 85e39357-e537-4175-be32-a6753f27d5f2 -->
+###### A.6.1.1.1.2.6.1.3.1.4.1.4.2.2.2 - Transfer Rate Limits [Core]  <!-- UUID: 85e39357-e537-4175-be32-a6753f27d5f2 -->
 
-The transferAssets rate limits are:
+The transfer rate limits are:
 
 - `maxAmount`: Unlimited
 
@@ -4627,17 +4627,17 @@ The Risk parameters are:
 
 ###### A.6.1.1.1.2.6.1.3.1.4.2.4.2.2 - Rate Limits [Core]  <!-- UUID: 9ea0e72b-2fc7-4291-b589-3414cdb7baac -->
 
-The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
+The current `maxAmount` for this conduit's take and transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.4.2.4.2.3 - Take Rate Limits [Core]  <!-- UUID: 4b64fc4a-b6ef-49d9-b212-8894526b680d -->
+###### A.6.1.1.1.2.6.1.3.1.4.2.4.2.2.1 - Take Rate Limits [Core]  <!-- UUID: 4b64fc4a-b6ef-49d9-b212-8894526b680d -->
 
 The take rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.1.4.2.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: a3af1ab3-c7a5-4f27-90db-0c01ac73f39e -->
+###### A.6.1.1.1.2.6.1.3.1.4.2.4.2.2.2 - Transfer Rate Limits [Core]  <!-- UUID: a3af1ab3-c7a5-4f27-90db-0c01ac73f39e -->
 
-The transferAssets rate limits are:
+The transfer rate limits are:
 
 - `maxAmount`: Unlimited
 
@@ -4739,17 +4739,17 @@ The Risk parameters are:
 
 ###### A.6.1.1.1.2.6.1.3.1.4.3.4.2.2 - Rate Limits [Core]  <!-- UUID: 3802d641-27cf-4ec1-bba4-6a09a84071af -->
 
-The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
+The current `maxAmount` for this conduit's take and transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.4.3.4.2.3 - Take Rate Limits [Core]  <!-- UUID: fc186f71-dce3-46d8-bf50-fcccdfad5e5d -->
+###### A.6.1.1.1.2.6.1.3.1.4.3.4.2.2.1 - Take Rate Limits [Core]  <!-- UUID: fc186f71-dce3-46d8-bf50-fcccdfad5e5d -->
 
 The take rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.1.4.3.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: 9c92bc84-cfdf-4356-8fc4-4df33937ec89 -->
+###### A.6.1.1.1.2.6.1.3.1.4.3.4.2.2.2 - Transfer Rate Limits [Core]  <!-- UUID: 9c92bc84-cfdf-4356-8fc4-4df33937ec89 -->
 
-The transferAssets rate limits are:
+The transfer rate limits are:
 
 - `maxAmount`: Unlimited
 
@@ -4851,17 +4851,17 @@ The Risk parameters are:
 
 ###### A.6.1.1.1.2.6.1.3.1.4.4.4.2.2 - Rate Limits [Core]  <!-- UUID: 8a75c7ba-4d34-4e0e-8f6e-25e765fcbe36 -->
 
-The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
+The current `maxAmount` for this conduit's take and transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.4.4.4.2.3 - Take Rate Limits [Core]  <!-- UUID: 6343b9eb-fa3e-4ca6-8f98-90c08d400c0f -->
+###### A.6.1.1.1.2.6.1.3.1.4.4.4.2.2.1 - Take Rate Limits [Core]  <!-- UUID: 6343b9eb-fa3e-4ca6-8f98-90c08d400c0f -->
 
 The take rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.1.4.4.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: f291a712-4c0c-4ef4-8d2f-0b558fb9cbbe -->
+###### A.6.1.1.1.2.6.1.3.1.4.4.4.2.2.2 - Transfer Rate Limits [Core]  <!-- UUID: f291a712-4c0c-4ef4-8d2f-0b558fb9cbbe -->
 
-The transferAssets rate limits are:
+The transfer rate limits are:
 
 - `maxAmount`: Unlimited
 
@@ -6148,21 +6148,21 @@ The Risk parameters are:
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.2 - Rate Limits [Core]  <!-- UUID: e9b62d67-cb5d-4bcb-9f5d-90688a85f123 -->
 
-The current `maxAmount` for this conduit's take, transferAssets, and bridge operations are defined in the subdocuments herein.
+The current `maxAmount` for this conduit's take, transfer, and bridge operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.3 - Take Rate Limits [Core]  <!-- UUID: 430776a5-cc59-4904-a2c7-65bd5ee8e4ca -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.2.1 - Take Rate Limits [Core]  <!-- UUID: 430776a5-cc59-4904-a2c7-65bd5ee8e4ca -->
 
 The take rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: 9496a85f-d220-4827-b7f4-b8b21c90b131 -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.2.2 - Transfer Rate Limits [Core]  <!-- UUID: 9496a85f-d220-4827-b7f4-b8b21c90b131 -->
 
-The transferAssets rate limits are:
+The transfer rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.5 - Bridge to Ethereum Rate Limits [Core]  <!-- UUID: 26c7a10c-dc71-4ccd-a3d3-706549b2e4aa -->
+###### A.6.1.1.1.2.6.1.3.3.1.1.4.2.2.3 - Bridge to Ethereum Rate Limits [Core]  <!-- UUID: 26c7a10c-dc71-4ccd-a3d3-706549b2e4aa -->
 
 The bridge-to-Ethereum rate limits are:
 
@@ -6274,17 +6274,17 @@ The Risk parameters are:
 
 ###### A.6.1.1.1.2.6.1.3.4.1.1.4.2.2 - Rate Limits [Core]  <!-- UUID: 2b911731-5f03-41b0-afbd-41af37e8646f -->
 
-The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
+The current `maxAmount` for this conduit's take and transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.4.1.1.4.2.3 - Take Rate Limits [Core]  <!-- UUID: 8507429b-f999-4990-825b-550ac91de996 -->
+###### A.6.1.1.1.2.6.1.3.4.1.1.4.2.2.1 - Take Rate Limits [Core]  <!-- UUID: 8507429b-f999-4990-825b-550ac91de996 -->
 
 The take rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.4.1.1.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: 4c7311c4-a8fa-4bba-88f7-09abe67a8709 -->
+###### A.6.1.1.1.2.6.1.3.4.1.1.4.2.2.2 - Transfer Rate Limits [Core]  <!-- UUID: 4c7311c4-a8fa-4bba-88f7-09abe67a8709 -->
 
-The transferAssets rate limits are:
+The transfer rate limits are:
 
 - `maxAmount`: Unlimited
 
@@ -6394,19 +6394,20 @@ The Risk parameters are:
 
 ###### A.6.1.1.1.2.6.1.3.5.1.1.4.2.2 - Rate Limits [Core]  <!-- UUID: f052e1ed-e2ff-4eaa-8cc4-8ecaabe0bcb4 -->
 
-The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit's take and transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.5.1.1.4.2.3 - Take Rate Limits [Core]  <!-- UUID: 6c10e42f-bd39-4359-9f7c-08ac9db45bbd -->
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.2.2.1 - Take Rate Limits [Core]  <!-- UUID: 6c10e42f-bd39-4359-9f7c-08ac9db45bbd -->
 
 The take rate limits are:
 
-- `maxAmount`: `TBD` (not specified in the proposal)
+- `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.5.1.1.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: b58e2248-8251-4000-8867-9ba32d48f422 -->
+###### A.6.1.1.1.2.6.1.3.5.1.1.4.2.2.2 - Transfer Rate Limits [Core]  <!-- UUID: b58e2248-8251-4000-8867-9ba32d48f422 -->
 
-The transferAssets rate limits are:
+The transfer rate limits are:
 
-- `maxAmount`: `TBD`
+- `maxAmount`: 50,000,000 USDG
+- `slope`: 250,000,000 USDG per day
 
 ###### A.6.1.1.1.2.6.1.3.6 - X Layer [Core]  <!-- UUID: 3a7ab5cb-578f-45c5-9af2-709d0994fc59 -->
 
@@ -6514,17 +6515,17 @@ The Risk parameters are:
 
 ###### A.6.1.1.1.2.6.1.3.6.1.1.4.2.2 - Rate Limits [Core]  <!-- UUID: 36204d14-11b1-439d-91b0-1dfc2a381a0d -->
 
-The current `maxAmount` for this conduit's take and transferAssets operations are defined in the subdocuments herein.
+The current `maxAmount` for this conduit's take and transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.6.1.1.4.2.3 - Take Rate Limits [Core]  <!-- UUID: e33c5054-f982-49a4-ae18-6e7394a3ea1a -->
+###### A.6.1.1.1.2.6.1.3.6.1.1.4.2.2.1 - Take Rate Limits [Core]  <!-- UUID: e33c5054-f982-49a4-ae18-6e7394a3ea1a -->
 
 The take rate limits are:
 
 - `maxAmount`: Unlimited
 
-###### A.6.1.1.1.2.6.1.3.6.1.1.4.2.4 - TransferAssets Rate Limits [Core]  <!-- UUID: 6fd02c5f-ce6d-4e0c-8f4f-69e45dd3aa37 -->
+###### A.6.1.1.1.2.6.1.3.6.1.1.4.2.2.2 - Transfer Rate Limits [Core]  <!-- UUID: 6fd02c5f-ce6d-4e0c-8f4f-69e45dd3aa37 -->
 
-The transferAssets rate limits are:
+The transfer rate limits are:
 
 - `maxAmount`: Unlimited
 
