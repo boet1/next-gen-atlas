@@ -5807,7 +5807,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.1.2.2.3 - Binance Deposit Address [Core]  <!-- UUID: ec3d3c63-f0ac-4d85-a05b-4af82744340d -->
 
-TBD
+`0xd010b876696F345d9E0a1B70F573244FcC2e0A0e`
 
 ###### A.6.1.1.1.2.6.1.3.1.9.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 1b4e3734-5a4d-4205-a217-9a1a54fe4c57 -->
 
@@ -5819,11 +5819,11 @@ The OTC swap RateLimitID is: `0x423505c71302bb78e1a7063ffe62b25e653a1d424d569e46
 
 ###### A.6.1.1.1.2.6.1.3.1.9.1.2.4 - Rate Limits [Core]  <!-- UUID: c8cd2bb5-cd8c-43f3-af6f-e1458e12164b -->
 
-The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+The current OTC swap rate limits for this conduit's OTC swap operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.9.1.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 7792d17d-6660-4b16-b85e-a9cea4b6edda -->
+###### A.6.1.1.1.2.6.1.3.1.9.1.2.4.1 - OTC Swap Rate Limits [Core]  <!-- UUID: 7792d17d-6660-4b16-b85e-a9cea4b6edda -->
 
-The transferAssets rate limits are:
+The OTC swap rate limits are:
 
 - `maxAmount`: 5,000,000 USDC
 - `slope`: 100,000,000 USDC per day
@@ -5884,7 +5884,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.9.2.2.2.3 - Binance Deposit Address [Core]  <!-- UUID: d22ee5e9-4601-4ff1-b0c0-b2641f871b2b -->
 
-TBD
+`0xd010b876696F345d9E0a1B70F573244FcC2e0A0e`
 
 ###### A.6.1.1.1.2.6.1.3.1.9.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: e66e804c-d81c-4157-b949-1045bb99ef7f -->
 
@@ -5896,11 +5896,11 @@ The OTC swap RateLimitID is: `0x423505c71302bb78e1a7063ffe62b25e653a1d424d569e46
 
 ###### A.6.1.1.1.2.6.1.3.1.9.2.2.4 - Rate Limits [Core]  <!-- UUID: 0db8118c-50a2-442c-86ea-083b85df9688 -->
 
-The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+The current OTC swap rate limits for this conduit's OTC swap operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.9.2.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: ce06a6b4-faa7-4406-ba40-bc2821bc6b88 -->
+###### A.6.1.1.1.2.6.1.3.1.9.2.2.4.1 - OTC Swap Rate Limits [Core]  <!-- UUID: ce06a6b4-faa7-4406-ba40-bc2821bc6b88 -->
 
-The transferAssets rate limits are:
+The OTC swap rate limits are:
 
 - `maxAmount`: 5,000,000 USDT
 - `slope`: 100,000,000 USDT per day
