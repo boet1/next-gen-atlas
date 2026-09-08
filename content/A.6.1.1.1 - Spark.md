@@ -5444,11 +5444,11 @@ The transfer RateLimitID is: `0x8eff4520fc06fe47d8ef292c7257c1aca72fa553d0354da7
 
 ###### A.6.1.1.1.2.6.1.3.1.7.1.2.4 - Rate Limits [Core]  <!-- UUID: bd104480-24d4-4fb1-a8f0-13e5c04a2c18 -->
 
-The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+The current transfer rate limits for this conduit's transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.7.1.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 66f2a388-119c-4908-9ff7-f38190e9566d -->
+###### A.6.1.1.1.2.6.1.3.1.7.1.2.4.1 - Transfer Rate Limits [Core]  <!-- UUID: 66f2a388-119c-4908-9ff7-f38190e9566d -->
 
-The transferAssets rate limits are:
+The transfer rate limits are:
 
 - `maxAmount`: 5,000,000 USDC
 - `slope`: 50,000,000 USDC per day
@@ -5519,11 +5519,11 @@ The transfer RateLimitID is: `0x02540be1a3e950599b8fe8d6b826c6ce7100d842b3bf61cf
 
 ###### A.6.1.1.1.2.6.1.3.1.7.2.2.4 - Rate Limits [Core]  <!-- UUID: ad179de7-3167-476d-ae82-36fb715ec68f -->
 
-The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+The current transfer rate limits for this conduit's transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.7.2.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 1f64320b-feca-4059-95d3-f73950382031 -->
+###### A.6.1.1.1.2.6.1.3.1.7.2.2.4.1 - Transfer Rate Limits [Core]  <!-- UUID: 1f64320b-feca-4059-95d3-f73950382031 -->
 
-The transferAssets rate limits are:
+The transfer rate limits are:
 
 - `maxAmount`: 5,000,000 PYUSD
 - `slope`: 200,000,000 PYUSD per day
@@ -5594,11 +5594,11 @@ The transfer RateLimitID is: `0x433a7d3ac412991a2470191a493e83395063d535c25a9597
 
 ###### A.6.1.1.1.2.6.1.3.1.7.3.2.4 - Rate Limits [Core]  <!-- UUID: 0d22ec04-8742-49d5-a285-3668ce6d4947 -->
 
-The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+The current transfer rate limits for this conduit's transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.7.3.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: eb39ef45-405a-46d5-acac-c0ecc47b7ea2 -->
+###### A.6.1.1.1.2.6.1.3.1.7.3.2.4.1 - Transfer Rate Limits [Core]  <!-- UUID: eb39ef45-405a-46d5-acac-c0ecc47b7ea2 -->
 
-The transferAssets rate limits are:
+The transfer rate limits are:
 
 - `maxAmount`: 5,000,000 PYUSD
 - `slope`: 50,000,000 PYUSD per day
@@ -5669,11 +5669,11 @@ The transfer RateLimitID is: `0x234f8110154879b57e48ef931726c6bf996d39a8e0638fe9
 
 ###### A.6.1.1.1.2.6.1.3.1.7.4.2.4 - Rate Limits [Core]  <!-- UUID: ffbfbbf7-8de6-47b8-aa8d-052e8273f33e -->
 
-The current TransferAsset rate limits for this conduit's transferAssets operations are defined in the subdocuments herein.
+The current transfer rate limits for this conduit's transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.7.4.2.4.1 - TransferAssets Rate Limits [Core]  <!-- UUID: 22e01de3-379b-4724-9ff6-136937c002d2 -->
+###### A.6.1.1.1.2.6.1.3.1.7.4.2.4.1 - Transfer Rate Limits [Core]  <!-- UUID: 22e01de3-379b-4724-9ff6-136937c002d2 -->
 
-The transferAssets rate limits are:
+The transfer rate limits are:
 
 - `maxAmount`: 5,000,000 USDG
 - `slope`: 100,000,000 USDG per day
@@ -5742,9 +5742,9 @@ The transfer RateLimitID is: `0x9aa280c68a0cf1d9b19b13eaa7573b960af50847f2771754
 
 ###### A.6.1.1.1.2.6.1.3.1.8.1.2.4 - Rate Limits [Core]  <!-- UUID: 88ae938c-2370-4a27-b6de-609fc3dd6808 -->
 
-The current `maxAmount` and `slope` for this conduit’s transferAssets operations are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit’s transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.3.1.8.1.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 9d3f2437-5dcd-4a38-8507-a2def33c7756 -->
+###### A.6.1.1.1.2.6.1.3.1.8.1.2.4.1 - Transfer Rate Limits [Core]  <!-- UUID: 9d3f2437-5dcd-4a38-8507-a2def33c7756 -->
 
 - `maxAmount`: 50,000,000 USDC
 - `slope`: 250,000,000 USDC per day
@@ -8642,9 +8642,9 @@ The transfer RateLimitID is: `0x3c330feaef1a941a409c78d7ac0a1c45e22b83aab4bb2c0e
 
 ###### A.6.1.1.1.2.6.1.4.1.7.1.2.4 - Rate Limits [Core]  <!-- UUID: 132f9c53-0f2d-4e0a-9adb-649eadf9d95f -->
 
-The current `maxAmount` and `slope` for this conduit’s transferAssets operations are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit’s transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.1.7.1.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 4093b98b-2421-4642-982b-8c08b2f5ef20 -->
+###### A.6.1.1.1.2.6.1.4.1.7.1.2.4.1 - Transfer Rate Limits [Core]  <!-- UUID: 4093b98b-2421-4642-982b-8c08b2f5ef20 -->
 
 - `maxAmount`: 0
 - `slope`: 0
@@ -8711,9 +8711,9 @@ The transfer RateLimitID is: `0x70b523f60b992e0e42182b83eccedb7747e22709d21f386b
 
 ###### A.6.1.1.1.2.6.1.4.1.7.2.2.4 - Rate Limits [Core]  <!-- UUID: b494026e-d3bc-4122-bac3-98ea1d7436b0 -->
 
-The current `maxAmount` and `slope` for this conduit’s transferAssets operations are defined in the subdocuments herein.
+The current `maxAmount` and `slope` for this conduit’s transfer operations are defined in the subdocuments herein.
 
-###### A.6.1.1.1.2.6.1.4.1.7.2.2.4.1 - transferAsset Rate Limits [Core]  <!-- UUID: 5a56203b-5c1b-42e8-9acb-8ab78eb4dc06 -->
+###### A.6.1.1.1.2.6.1.4.1.7.2.2.4.1 - Transfer Rate Limits [Core]  <!-- UUID: 5a56203b-5c1b-42e8-9acb-8ab78eb4dc06 -->
 
 - `maxAmount`: 0
 - `slope`: 0
