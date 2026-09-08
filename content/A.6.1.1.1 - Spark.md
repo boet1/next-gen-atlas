@@ -4899,7 +4899,7 @@ USDC
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.1.4 - Token [Core]  <!-- UUID: d148fb40-413f-4ef7-a852-e26f613c8cd0 -->
 
-spUSDC
+sparkPrimeUSDC1
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.2 - Contract Addresses [Core]  <!-- UUID: 39ee8922-db8a-47d7-a4ac-f183e1314975 -->
 
@@ -4907,7 +4907,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.2.1 - Token Address [Core]  <!-- UUID: befde66f-e9f7-4f70-b107-ded60431052f -->
 
-`0x377C3bd93f2a2984E1E7bE6A5C22c525eD4A4815`
+`0x38464507E02c983F20428a6E8566693fE9e422a9`
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: fa448799-af8f-494d-9db8-5361ea02b576 -->
 
@@ -4915,7 +4915,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.2.3 - Pool Address [Core]  <!-- UUID: 8efbce12-9417-4ab7-9e55-6194ee592bd4 -->
 
-The pool address will be specified in a future iteration of the Spark Artifact.
+`0x38464507E02c983F20428a6E8566693fE9e422a9`
 
 ###### A.6.1.1.1.2.6.1.3.1.5.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 541b2c98-6c5d-4e8d-9aef-30d3b15bd6bc -->
 
