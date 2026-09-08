@@ -6088,7 +6088,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.2.2.1 - Token Address [Core]  <!-- UUID: a455756e-8476-443b-9d98-afee0bee28e5 -->
 
-TBD
+`0x45d91340B3B7B96985A72b5c678F7D9e8D664b62`
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 580ecc7a-ce02-4c7c-bd90-7f5bba059670 -->
 
@@ -6120,7 +6120,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.1 - Spark Vault v2 Implementation [Core]  <!-- UUID: bfa35719-77b3-4fbf-b8a3-329238b66c86 -->
 
-TBD
+`0x282dAfE8B97e2Db5053761a4601ab2E1CB976318`
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.2 - Default admin [Core]  <!-- UUID: 079a23a2-8b55-4cfa-859e-0c3d5bbe9f80 -->
 
@@ -6128,7 +6128,7 @@ TBD
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.3 - Setter [Core]  <!-- UUID: 60113aaa-8464-4417-9344-8594b5a2d23f -->
 
-TBD
+`0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38`
 
 ###### A.6.1.1.1.2.6.1.3.3.1.1.4.1.4 - Taker [Core]  <!-- UUID: 19011642-44ea-44d6-b5fa-74483f22692a -->
 
@@ -6992,10 +6992,6 @@ The documents herein define the Instance contract addresses.
 
 `0xdC035D45d973E3EC169d2276DDab16f1e407384F`
 
-###### A.6.1.1.1.2.6.1.4.1.2.2.2.2.3 - Pool [Core]  <!-- UUID: c358ae91-bc20-4c39-9a31-7f867fab56e4 -->
-
-This parameter will be specified in a future iteration of the Spark Artifact.
-
 ###### A.6.1.1.1.2.6.1.4.1.2.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7e6afc3c-5c09-4ca4-9c2c-05aa9ed85e67 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
@@ -7679,7 +7675,7 @@ The documents herein define the Instance contract addresses.
 
 ###### A.6.1.1.1.2.6.1.4.1.4.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: e72457e9-cfd1-4a67-a694-4b487d38d3c0 -->
 
-This parameter will be specified in a future iteration of the Spark Artifact.
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
 
 ###### A.6.1.1.1.2.6.1.4.1.4.1.2.2.3 - EthenaMinter [Core]  <!-- UUID: e9625e37-993c-4690-b3e3-cf6a29fb8c96 -->
 
@@ -9291,10 +9287,6 @@ The documents herein define the Instance contract addresses.
 
 `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
 
-###### A.6.1.1.1.2.6.1.4.2.2.1.2.2.3 - Pool [Core]  <!-- UUID: 510aabe8-5660-4b5d-b647-cd4ff022a620 -->
-
-This parameter will be specified in a future iteration of the Spark Artifact.
-
 ###### A.6.1.1.1.2.6.1.4.2.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: bdb8e938-6930-4307-8d26-1e6e0e29f5d5 -->
 
 The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
@@ -9470,10 +9462,6 @@ The documents herein define the Instance contract addresses.
 ###### A.6.1.1.1.2.6.1.4.3.2.1.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 3fe18ab3-8f90-494e-8c8b-0b4218dd77f6 -->
 
 `0xaf88d065e77c8cC2239327C5EDb3A432268e5831`
-
-###### A.6.1.1.1.2.6.1.4.3.2.1.2.2.3 - Pool [Core]  <!-- UUID: aaf8a23e-ca02-4a8a-a75e-9431119b25bb -->
-
-This parameter will be specified in a future iteration of the Spark Artifact.
 
 ###### A.6.1.1.1.2.6.1.4.3.2.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: b89d0921-1a1f-4b1e-a074-4027c7ab19ea -->
 
