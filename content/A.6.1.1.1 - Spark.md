@@ -4187,8 +4187,8 @@ The outflow rate limits are:
 
 The swap rate limits are:
 
-- `maxAmount`: 5,000,000
-- `slope`: 25,000,000 per day
+- `maxAmount`: 5,000,000 RLUSD/USDC
+- `slope`: 25,000,000 RLUSD/USDC per day
 - `Max slippage`: 0.1%
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: c73a4929-43af-451b-875d-f9e7c8c54a2a -->
@@ -4383,7 +4383,7 @@ The inflow rate limits are:
 
 The outflow rate limits are:
 
-- `maxAmount`: unlimited
+- `maxAmount`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.3.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 4b630d7d-09ee-4039-8850-71a2d287fe3e -->
 
@@ -5034,22 +5034,22 @@ The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s 
 
 The inflow rate limits are:
 
-- `maxAmount`: 10,000,000
-- `slope`: 100,000,000 per day
+- `maxAmount`: 10,000,000 PYUSD/USDS
+- `slope`: 100,000,000 PYUSD/USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.6.1.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 7b1bcd5c-8af6-46bd-8fb0-cbac22bae80a -->
 
 The outflow rate limits are:
 
-- `maxAmount`: 50,000,000
-- `slope`: 200,000,000 per day
+- `maxAmount`: 50,000,000 PYUSD/USDS
+- `slope`: 200,000,000 PYUSD/USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.6.1.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 1a2ba197-1389-4cdd-8e55-ca950ecacdca -->
 
 The swap rate limits are:
 
-- `maxAmount`: 5,000,000
-- `slope`: 50,000,000 per day
+- `maxAmount`: 5,000,000 PYUSD/USDS
+- `slope`: 50,000,000 PYUSD/USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.6.1.2.4.4 - Maximum Slippage [Core]  <!-- UUID: 0318bf34-70a0-42a0-9019-e5a48de96ec6 -->
 
@@ -5141,22 +5141,22 @@ The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s 
 
 The inflow rate limits are:
 
-- `maxAmount`: 5,000,000
-- `slope`: 50,000,000 per day
+- `maxAmount`: 5,000,000 USDT/USDS
+- `slope`: 50,000,000 USDT/USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.6.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 2a7d1855-feb9-4a16-b726-144f52c89dd3 -->
 
 The outflow rate limits are:
 
-- `maxAmount`: 50,000,000
-- `slope`: 200,000,000 per day
+- `maxAmount`: 50,000,000 USDT/USDS
+- `slope`: 200,000,000 USDT/USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.6.2.2.4.3 - Swap Rate Limits [Core]  <!-- UUID: 18355afe-c656-47a5-8867-206263d8cb09 -->
 
 The swap rate limits are:
 
-- `maxAmount`: 25,000,000
-- `slope`: 250,000,000 per day
+- `maxAmount`: 25,000,000 USDT/USDS
+- `slope`: 250,000,000 USDT/USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.6.2.2.4.4 - Maximum Slippage [Core]  <!-- UUID: fa48928b-af8a-4455-88ac-43a68631e329 -->
 
@@ -5244,8 +5244,8 @@ The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s 
 
 The inflow rate limits are:
 
-- `maxAmount`: 10,000,000
-- `slope`: 100,000,000 per day
+- `maxAmount`: 10,000,000 USDG/USDS
+- `slope`: 100,000,000 USDG/USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.6.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: fedd5aff-5da6-4fbc-a117-c742d8706971 -->
 
@@ -5257,8 +5257,8 @@ The outflow rate limits are:
 
 The swap rate limits are:
 
-- `maxAmount`: 5,000,000
-- `slope`: 200,000,000 per day
+- `maxAmount`: 5,000,000 USDG/USDS
+- `slope`: 200,000,000 USDG/USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.6.3.2.4.4 - Maximum Slippage [Core]  <!-- UUID: 24e2eff9-42f8-4c46-b1e8-e05e16556ea0 -->
 
@@ -5345,8 +5345,8 @@ The current `maxAmount,` `slope`, slippage, ticks, and fee for this conduit’s 
 
 The inflow rate limits are:
 
-- `maxAmount`: 10,000,000
-- `slope`: 50,000,000 per day
+- `maxAmount`: 10,000,000 RLUSD/USDS
+- `slope`: 50,000,000 RLUSD/USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.6.4.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 4ae75785-5950-4483-a943-aa921e8a4cc0 -->
 
@@ -5358,8 +5358,8 @@ The outflow rate limits are:
 
 The swap rate limits are:
 
-- `maxAmount`: 5,000,000
-- `slope`: 100,000,000 per day
+- `maxAmount`: 5,000,000 RLUSD/USDS
+- `slope`: 100,000,000 RLUSD/USDS per day
 
 ###### A.6.1.1.1.2.6.1.3.1.6.4.2.4.4 - Maximum Slippage [Core]  <!-- UUID: a3c6f486-cfb5-4ba4-b671-cdf75b0bbeee -->
 
