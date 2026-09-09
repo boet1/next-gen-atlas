@@ -3157,12 +3157,6 @@ This document defines the steps to withdraw a yield-earning balance from the Aav
 
 The process for withdrawing Aave ATokens on destination blockchain through the `ForeignController` contract is the same as the one for withdrawing Aave ATokens on Ethereum Mainnet through the `MainnetController` contract, see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3.2 - General Withdraw from Aave ATokens Procedure](6e75a2bd-70b7-4081-bb9f-39cf6b321066).
 
-###### A.6.1.1.1.2.6.1.2.2.1.2.2.2.2.3 - Withdraw Aave ATokens [Core]  <!-- UUID: 35cf8ecc-ce16-4498-81f5-d96073ec5724 -->
-
-This document defines the steps to withdraw a yield-earning balance from the Aave AToken vaults to the ALM Proxy.
-
-The process for withdrawing Aave ATokens on destination blockchain through the `ForeignController` contract is the same as the one for withdrawing Aave ATokens on Ethereum Mainnet through the `MainnetController` contract, see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3.2 - General Withdraw from Aave ATokens Procedure](6e75a2bd-70b7-4081-bb9f-39cf6b321066).
-
 ###### A.6.1.1.1.2.6.1.2.2.1.2.2.2.3 - PSM Functions [Core]  <!-- UUID: 6c18d284-b720-49b4-ac11-904d512fc841 -->
 
 The documents herein define the swap operations that are performed by the Spark Liquidity Layer in the Spark Base PSM.
@@ -3327,11 +3321,7 @@ In order to withdraw all ERC-4626 balances, the operator must execute the follow
 `
 For more detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.2 - Withdraw ERC-4626 Tokens](c2bbf44a-496c-4cf6-b0f6-25f77e66465b) and [A.6.1.1.1.2.6.1.2.2.1.2.2.2.1.3 - Redeem ERC-4626 Tokens](ab5eb90f-1007-4560-a0ea-1c25d433c602).
 
-###### A.6.1.1.1.2.6.1.2.2.3.2.2 - ERC-4626 Withdrawal Action [Core]  <!-- UUID: 29bb82e9-a308-448f-ace1-e8b0397a0995 -->
-
-[A.6.1.1.1.2.6.1.2.2.1.2.1.2.2.3 - General Redeem from ERC-4626 Tokens Procedure](ed774ab7-c761-444b-963d-7407bf91e243)
-
-###### A.6.1.1.1.2.6.1.2.2.3.2.3 - Aave AToken Withdrawal Action [Core]  <!-- UUID: 2560adbb-4a5c-4c95-86cb-04647bb33836 -->
+###### A.6.1.1.1.2.6.1.2.2.3.2.2 - Aave AToken Withdrawal Action [Core]  <!-- UUID: 2560adbb-4a5c-4c95-86cb-04647bb33836 -->
 
 In order to withdraw all AToken balances, the operator must execute the following action:
 
@@ -3339,15 +3329,7 @@ In order to withdraw all AToken balances, the operator must execute the followin
 `
 For more detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.2.2.1.2.2.2.2.2 - Withdraw Aave ATokens](5b090e5a-a2e7-4548-a1b4-53be86db6516).
 
-###### A.6.1.1.1.2.6.1.2.2.3.2.4 - Aave AToken Withdrawal Action [Core]  <!-- UUID: c1f708eb-7373-448d-a54c-b178d0fd909a -->
-
-In order to withdraw all AToken balances, the operator must execute the following action:
-
-`foreignController.withdrawAave(aToken, aToken.balanceOf(address(proxy))
-`
-For more detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3.2 - General Withdraw from Aave ATokens Procedure](6e75a2bd-70b7-4081-bb9f-39cf6b321066).
-
-###### A.6.1.1.1.2.6.1.2.2.3.2.5 - All PSM Assets Withdrawal Action [Core]  <!-- UUID: 3bd03154-f7f0-408e-b3bf-654aaaf7e8cf -->
+###### A.6.1.1.1.2.6.1.2.2.3.2.3 - All PSM Assets Withdrawal Action [Core]  <!-- UUID: 3bd03154-f7f0-408e-b3bf-654aaaf7e8cf -->
 
 In order to withdraw all Assets from the PSM, the operator must execute the following action:
 
@@ -3383,11 +3365,7 @@ In order to withdraw all ERC-4626 balances, the operator must execute the follow
 `
 For more detailed instructions on the code to execute this, see [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2.2 - General Withdraw from ERC-4626 Tokens Procedure](e797d1cc-9161-4b7a-8c16-db20a026d001) and [A.6.1.1.1.2.6.1.2.2.1.2.1.2.2.3 - General Redeem from ERC-4626 Tokens Procedure](ed774ab7-c761-444b-963d-7407bf91e243).
 
-###### A.6.1.1.1.2.6.1.2.2.3.4.2 - ERC-4626 Withdrawal Action [Core]  <!-- UUID: eb2056e5-2987-45fc-bb7d-453f09a3d5b7 -->
-
-[A.6.1.1.1.2.6.1.2.2.1.2.1.2.2.3 - General Redeem from ERC-4626 Tokens Procedure](ed774ab7-c761-444b-963d-7407bf91e243)
-
-###### A.6.1.1.1.2.6.1.2.2.3.4.3 - Aave AToken Withdrawal Action [Core]  <!-- UUID: 09de757a-e742-4061-a1d4-7e5d70e9c0df -->
+###### A.6.1.1.1.2.6.1.2.2.3.4.2 - Aave AToken Withdrawal Action [Core]  <!-- UUID: 09de757a-e742-4061-a1d4-7e5d70e9c0df -->
 
 In order to withdraw all Aave AToken balances, the operator must execute the following action:
 
@@ -4127,7 +4105,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 7895798c-50e2-4fa6-b4e9-5b9f259f822d -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.3 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836).
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.2 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836).
 
 ###### A.6.1.1.1.2.6.1.3.1.2.1.3.1 - Process Definition For Depositing [Core]  <!-- UUID: fa2520ac-4779-4aeb-abe4-2c1b89e7ca51 -->
 
@@ -6748,7 +6726,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.2.3.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: bac5a103-a0fa-4d3b-8cd0-b9dfe024d4a9 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.3 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836). For detailed example of the Spark Liquidity Layer interaction logic for depositing to and withdrawing from Aave see [A.6.1.1.1.2.6.1.3.1.2.1.3.1 - Process Definition For Depositing](fa2520ac-4779-4aeb-abe4-2c1b89e7ca51) and [A.6.1.1.1.2.6.1.3.1.2.1.3.2 - Process Definition For Withdrawing](35e32620-a28c-4101-a881-2b7c2b9e42f2).
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.2 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836). For detailed example of the Spark Liquidity Layer interaction logic for depositing to and withdrawing from Aave see [A.6.1.1.1.2.6.1.3.1.2.1.3.1 - Process Definition For Depositing](fa2520ac-4779-4aeb-abe4-2c1b89e7ca51) and [A.6.1.1.1.2.6.1.3.1.2.1.3.2 - Process Definition For Withdrawing](35e32620-a28c-4101-a881-2b7c2b9e42f2).
 
 ###### A.6.1.1.1.2.6.1.3.3 - Arbitrum [Core]  <!-- UUID: 52565140-229d-42b4-9284-905b858dee6c -->
 
@@ -6912,7 +6890,7 @@ The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.3.3.2.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d30527ea-821f-4c63-9f2a-3f13ff8064f7 -->
 
-The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.3 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836). For detailed example of the Spark Liquidity Layer interaction logic for depositing to and withdrawing from Aave see [A.6.1.1.1.2.6.1.3.1.2.1.3.1 - Process Definition For Depositing](fa2520ac-4779-4aeb-abe4-2c1b89e7ca51) and [A.6.1.1.1.2.6.1.3.1.2.1.3.2 - Process Definition For Withdrawing](35e32620-a28c-4101-a881-2b7c2b9e42f2).
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes. For the general operational procedures applicable to all Aave-type instances. See [A.6.1.1.1.2.6.1.2.2.1.2.1.2.3 - Aave Functions](9922dcf0-4562-445b-9a46-712f677cce64) and [A.6.1.1.1.2.6.1.2.2.3.2.2 - Aave AToken Withdrawal Action](2560adbb-4a5c-4c95-86cb-04647bb33836). For detailed example of the Spark Liquidity Layer interaction logic for depositing to and withdrawing from Aave see [A.6.1.1.1.2.6.1.3.1.2.1.3.1 - Process Definition For Depositing](fa2520ac-4779-4aeb-abe4-2c1b89e7ca51) and [A.6.1.1.1.2.6.1.3.1.2.1.3.2 - Process Definition For Withdrawing](35e32620-a28c-4101-a881-2b7c2b9e42f2).
 
 ###### A.6.1.1.1.2.6.1.3.3.3 - Spark Savings V2 [Core]  <!-- UUID: 417952e8-a21d-40e8-9a42-4a79f4fb0b62 -->
 
