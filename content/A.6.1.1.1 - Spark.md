@@ -2228,28 +2228,24 @@ The maximum amount of USDC that can be withdrawn from the PSM (`LIMIT_PSM_WITHDR
 The maximum amount of USDS that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_USDS`) is specified in the document herein.
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.2.4 - Base USDS Withdrawal Maximum [Core]  <!-- UUID: 2cac91fb-e1e2-443d-ad12-ee45211eba1d -->
 
 The maximum amount of USDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_USDS`) is specified in the document herein.
 
 - `maxAmount`: Unlimited
-- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.2.5 - Base sUSDS Deposit Maximum [Core]  <!-- UUID: f9e926e1-e127-42ec-883d-d11baecb0fd6 -->
 
 The maximum amount of sUSDS that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_SUSDS`) is specified in the document herein.
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.2.6 - Base sUSDS Withdrawal Maximum [Core]  <!-- UUID: 521cc062-0b43-4d93-91c3-fdc29e4792f1 -->
 
 The maximum amount of sUSDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_SUSDS`) is specified in the document herein.
 
 - `maxAmount`: Unlimited
-- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.2.7 - USDC Base ALM Proxy Maximum [Core]  <!-- UUID: 59bc4c89-3edf-4a1b-a288-151cd5cfc624 -->
 
@@ -2338,21 +2334,18 @@ The maximum amount of USDC that can be withdrawn from the PSM (`LIMIT_PSM_WITHDR
 The maximum amount of USDS that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_USDS`) is specified in the document herein.
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.4.4 - Unichain USDS Withdrawal Maximum [Core]  <!-- UUID: 3a6e6efd-314a-4f21-b238-0ffa148fb8e3 -->
 
 The maximum amount of USDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_USDS`) is specified in the document herein.
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.4.5 - Unichain sUSDS Deposit Maximum [Core]  <!-- UUID: 1741e5ba-e45a-4960-b193-f8bee9d595c9 -->
 
 The maximum amount of sUSDS that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_SUSDS`) is specified in the document herein.
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.4.6 - Unichain sUSDS Withdrawal Maximum [Core]  <!-- UUID: 16004284-de05-4ee4-a9db-762de1270de9 -->
 
@@ -2383,21 +2376,18 @@ The maximum amount of USDC that can be withdrawn from the PSM (`LIMIT_PSM_WITHDR
 The maximum amount of USDS that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_USDS`) is specified in the document herein.
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.5.4 - Optimism USDS Withdrawal Maximum [Core]  <!-- UUID: f04f600b-3cc0-4c10-8540-1dce56d130e2 -->
 
 The maximum amount of USDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_USDS`) is specified in the document herein.
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.5.5 - Optimism sUSDS Deposit Maximum [Core]  <!-- UUID: ae241843-1492-42b4-8a66-687701ba4dc0 -->
 
 The maximum amount of sUSDS that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_SUSDS`) is specified in the document herein.
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.5.6 - Optimism sUSDS Withdrawal Maximum [Core]  <!-- UUID: a9d4793d-da6a-440e-9435-993070700b60 -->
 
@@ -2414,14 +2404,12 @@ The documents herein list the current `RateLimits` for the Spark Liquidity Layer
 The maximum amount of USDC that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_USDC`) is specified in the document herein.
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.6.2 - Avalanche USDC Withdrawal Maximum [Core]  <!-- UUID: 8b9fa488-8005-488a-8537-11a8bdcb205b -->
 
 The maximum amount of USDC that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_USDC`) is specified in the document herein.
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.6.3 - USDC Avalanche ALM Proxy Maximum [Core]  <!-- UUID: 59673606-e50f-4c75-86e1-6bbc968321f0 -->
 
