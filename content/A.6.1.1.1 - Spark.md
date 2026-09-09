@@ -2308,8 +2308,8 @@ The maximum amount of sUSDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHD
 
 The maximum amount of USDT that can be sent to the Arbitrum ALM Proxy (`LIMIT_USDT_TO_DOMAIN`, hashed with Arbitrum domain) is specified in the document herein.
 
-- `maxAmount` (USDT): 5,000,000
-- `slope` (USDT/ day): 50,000,000
+- `maxAmount`: 5,000,000 USDT
+- `slope`: 50,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.4 - Unichain [Core]  <!-- UUID: 40eb29f0-9d83-4c83-ae68-ea46b9f1bcac -->
 
@@ -2433,16 +2433,16 @@ The documents herein list the current `RateLimits` for the Spark Liquidity Layer
 
 The maximum amount of USDG that can be transferred from the Robinhood Chain ALM Proxy is specified in the document herein.
 
-- `maxAmount` (USDG): 50,000,000
-- `slope` (USDG/ day): 250,000,000
+- `maxAmount`: 50,000,000 USDG
+- `slope`: 250,000,000 USDG per day
 - Recipient: `0x17C0F5345d1144fdF670D14719077be3842E5087`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.7.2 - USDG Robinhood Chain ALM Proxy Maximum [Core]  <!-- UUID: bb47f741-e64b-440c-822c-3937fe94e87e -->
 
 The maximum amount of USDG that can be sent to the Robinhood Chain ALM Proxy is specified in the document herein.
 
-- `maxAmount` (USDG): 50,000,000
-- `slope` (USDG/ day): 250,000,000
+- `maxAmount`: 50,000,000 USDG
+- `slope`: 250,000,000 USDG per day
 - Recipient: `0xf752cF318dfF2C01575c98741AA52e7a34d873Fd`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.8 - X Layer [Core]  <!-- UUID: 76127cf5-4b2e-4c2f-8d8a-352759e5a149 -->
@@ -2453,8 +2453,8 @@ The documents herein list the current `RateLimits` for the Spark Liquidity Layer
 
 The maximum amount of USDT that can be sent to the X Layer ALM Proxy is specified in the document herein.
 
-- `maxAmount` (USDT): 5,000,000
-- `slope` (USDT/ day): 100,000,000
+- `maxAmount`: 5,000,000 USDT
+- `slope`: 100,000,000 USDT per day
 
 ###### A.6.1.1.1.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 9e74aa40-898f-4389-ba3d-8590c12f075d -->
 
