@@ -1820,11 +1820,11 @@ The address of the ALM_RATE_LIMITS contract is: `0x7A5FD5cf045e010e62147F065cEAe
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.7 - ALM Proxy Freezable (Mainnet) Contract Address [Core]  <!-- UUID: a937f2e1-5f17-4c60-b007-fef5a7f00f5b -->
 
-The address of the ALM_PROXY_FREEZABLE contract is: `0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178`
+The address of the ALM_PROXY_FREEZABLE contract is: `0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.8 - ALM Proxy Freezable (Mainnet) Contract Version [Core]  <!-- UUID: 5879057d-df2d-4f23-8927-9c6e5160edd2 -->
 
-The version of the ALM_PROXY_FREEZABLE contract is: 1.1
+The version of the ALM_PROXY_FREEZABLE contract is: 1.12.0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.2 - Base [Core]  <!-- UUID: 339e27da-297e-458f-8420-546e085a51dd -->
 
@@ -1856,11 +1856,11 @@ The address of the ALM_RATE_LIMITS contract is: `0x983eC82E45C61a42FDDA7B3c43B8C
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.2.7 - ALM Proxy Freezable (Base) Contract Address [Core]  <!-- UUID: ab85b80b-096b-438d-ad9a-c4ece54274a8 -->
 
-The address of the ALM_PROXY_FREEZABLE contract is: `0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d`
+The address of the ALM_PROXY_FREEZABLE contract is: `0x92d7B06e5844e67174AE9E86bdCb06428482DDF9`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.2.8 - ALM Proxy Freezable (Base) Contract Version [Core]  <!-- UUID: 68dd49b4-4d08-4a4d-a0b2-a294526ca30c -->
 
-The version of the ALM_PROXY_FREEZABLE contract is: 1.1
+The version of the ALM_PROXY_FREEZABLE contract is: 1.12.0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.3 - Arbitrum [Core]  <!-- UUID: de02348b-d300-4b85-b7f9-5546106c5191 -->
 
@@ -1889,6 +1889,14 @@ The address of the ALM_PROXY contract is: `0x92afd6F2385a90e44da3a8B60fe36f6cBe1
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.3.6 - ALM Rate Limits (Arbitrum) Contract [Core]  <!-- UUID: 83f8da05-267e-4dd7-beaa-7561c9b8c5c1 -->
 
 The address of the ALM_RATE_LIMITS contract is: `0x19D08879851FB54C2dCc4bb32b5a1EA5E9Ad6838`
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.3.7 - ALM Proxy Freezable (Arbitrum) Contract Address [Core]  <!-- UUID: 3679d683-b629-42d5-8119-39bd4f539d7d -->
+
+The address of the ALM_PROXY_FREEZABLE contract is: `0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38`
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.3.8 - ALM Proxy Freezable (Arbitrum) Contract Version [Core]  <!-- UUID: ff22b649-bd2b-4cf9-a417-3c55c462b5a4 -->
+
+The version of the ALM_PROXY_FREEZABLE contract is: 1.12.0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.4 - Unichain [Core]  <!-- UUID: 6cd31b91-4309-49ae-8d23-2486129f3b20 -->
 
@@ -1976,11 +1984,11 @@ The address of the ALM_RATE_LIMITS contract is: `0xb79972e8B21f0dE911E65AC342ac8
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.7 - ALM Proxy Freezable (Avalanche) Contract Address [Core]  <!-- UUID: 4eb4959c-a91b-4a00-a605-138ac53b0786 -->
 
-The address of the ALM_PROXY_FREEZABLE contract is: `0x45d91340B3B7B96985A72b5c678F7D9e8D664b62`
+The address of the ALM_PROXY_FREEZABLE contract is: `0x93c81ADc7F98FdBC8C7a15eCBeD312c8F6adbcB3`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.8 - ALM Proxy Freezable (Avalanche) Contract Version [Core]  <!-- UUID: 7594b5c7-8ba4-4b81-a737-acb76858d762 -->
 
-The version of the ALM_PROXY_FREEZABLE contract is: 1.1
+The version of the ALM_PROXY_FREEZABLE contract is: 1.12.0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.9 - Governance Bridge Protection [Core]  <!-- UUID: dfffb528-049b-4f11-98cd-25c908d3385a -->
 
@@ -2034,6 +2042,14 @@ The address of the ALM_PROXY contract is: `0xfD2fD4B046136B540A56C11c75ac679AE7d
 
 The address of the ALM_RATE_LIMITS contract is: `0x5c1fDE9d4C7f1BF4bc5dEAA2a7752e56232c68a0`
 
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.7 - ALM Proxy Freezable (Robinhood Chain) Contract Address [Core]  <!-- UUID: e3828279-2389-4f8c-996b-1946a81bbb63 -->
+
+The address of the ALM_PROXY_FREEZABLE contract is: `0xAEa9f5dE56e6C20383a1fcC2C3629Dca0A92cE41`
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.8 - ALM Proxy Freezable (Robinhood Chain) Contract Version [Core]  <!-- UUID: c80dd725-e796-40e4-b1b4-4aa62743c56c -->
+
+The version of the ALM_PROXY_FREEZABLE contract is: 1.12.0
+
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.8 - X Layer [Core]  <!-- UUID: 9c35c0e5-d7b9-4538-a87b-3290897e35e4 -->
 
 This document contains the ALM Contract Addresses for the Spark Liquidity Layer on X Layer.
@@ -2061,6 +2077,14 @@ The address of the ALM_PROXY contract is: `0x83A914C361bB729EB6BEBC8C7bA993667A0
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.6 - ALM Rate Limits (X Layer) Contract [Core]  <!-- UUID: bd7ba684-2c40-4290-b263-0de4fd1f9aad -->
 
 The address of the ALM_RATE_LIMITS contract is: `0x7F7E2286983994c4403Cf2B86758cE0e7bA666a8`
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.7 - ALM Proxy Freezable (X Layer) Contract Address [Core]  <!-- UUID: 0501da5c-6631-41fe-bce3-297c1d384184 -->
+
+The address of the ALM_PROXY_FREEZABLE contract is: `0x9449ed367C60ea757544fd990B57e1C2D0Ec3A94`
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.8 - ALM Proxy Freezable (X Layer) Contract Version [Core]  <!-- UUID: 557061d8-83ba-42d2-b413-13c95f435fcd -->
+
+The version of the ALM_PROXY_FREEZABLE contract is: 1.12.0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.2 - Off-Chain Operational Parameters [Core]  <!-- UUID: 257dcfcb-9bb8-4989-a063-69ae4f01f224 -->
 
