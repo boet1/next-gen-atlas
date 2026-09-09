@@ -1796,7 +1796,7 @@ The documents herein contain the ALM Contract Addresses for the Spark Liquidity 
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.1 - ALM Controller (MainnetController) Contract Address [Core]  <!-- UUID: 3546c2d3-7b7c-4446-aa16-ff357c1a7a0f -->
 
-The address of the ALM_CONTROLLER (MainnetController) contract is: `0x577Fa18a498e1775939b668B0224A5e5a1e56fc3`
+The address of the ALM_CONTROLLER (MainnetController) contract is: `0x5c46Fc65855c0C7465a1EA85EEA0B24B601502D3`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.2 - ALM Controller (MainnetController) Contract Version [Core]  <!-- UUID: d7b0b6a0-0bac-4169-a006-4a375cba4baa -->
 
@@ -1832,7 +1832,7 @@ The documents herein list the ALM Contract Addresses for the Spark Liquidity Lay
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.2.1 - ALM Controller (ForeignController Base) Contract Address [Core]  <!-- UUID: eaa1d582-a814-49ef-a3ec-3fbffa414a3a -->
 
-The address of the ALM_CONTROLLER (ForeignController) contract is: `0xC0bcbb2554D4694fe7b34bB68b9DdfbB55D896BC`
+The address of the ALM_CONTROLLER (ForeignController) contract is: `0x86036CE5d2f792367C0AA43164e688d13c5A60A8`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.2.2 - ALM Controller (ForeignController Base) Contract Version Address [Core]  <!-- UUID: 2f264586-051d-4944-9c15-c271a2a8a0b5 -->
 
@@ -1868,8 +1868,7 @@ This document contains the ALM Contract Addresses for the Spark Liquidity Layer 
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.3.1 - ALM Controller (ForeignController Arbitrum) Contract Address [Core]  <!-- UUID: 60979099-707d-497d-ad65-4fd6dd6c7cb0 -->
 
-The address of the ALM_CONTROLLER (ForeignController) contract is:
-TBC
+The address of the ALM_CONTROLLER (ForeignController) contract is: `0xC40611AC4Fff8572Dc5F02A238176edCF15Ea7ba`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.3.2 - ALM Controller (ForeignController Arbitrum) Contract Version [Core]  <!-- UUID: ea182fbb-586b-4df2-ac03-ea8291702649 -->
 
@@ -1897,7 +1896,7 @@ This document contains the ALM Contract Addresses for the Spark Liquidity Layer 
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.4.1 - ALM Controller (ForeignController Unichain) Contract Address [Core]  <!-- UUID: bcc685eb-d28c-4306-8b78-5639b1d31f6b -->
 
-The address of the ALM_CONTROLLER (ForeignController) contract is: TBC
+The address of the ALM_CONTROLLER (ForeignController) contract is: `0xF16DE710899C7bdd6D46873265392CCA68e5D5bA`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.4.2 - ALM Controller (ForeignController Unichain) Contract Version [Core]  <!-- UUID: 17ff233f-2ada-4856-be5f-f3ba2616c1b7 -->
 
@@ -1925,7 +1924,7 @@ This document contains the ALM Contract Addresses for the Spark Liquidity Layer 
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.5.1 - ALM Controller (ForeignController Optimism) Contract Address [Core]  <!-- UUID: 1eaa9220-d5e2-44f2-83eb-232add8f04ff -->
 
-The address of the ALM_CONTROLLER (ForeignController) contract is: TBC
+The address of the ALM_CONTROLLER (ForeignController) contract is: `0x689502bc817E6374286af8f171Ed4715721406f7`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.5.2 - ALM Controller (ForeignController Optimism) Contract Version [Core]  <!-- UUID: 715c19b6-63bc-4eae-b8a4-0327e9a10c71 -->
 
@@ -1953,7 +1952,7 @@ This document contains the ALM Contract Addresses for the Spark Liquidity Layer 
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.1 - ALM Controller (ForeignController Avalanche) Contract Address [Core]  <!-- UUID: 2a9bf1bb-81f7-40d2-a26d-2cc7e729913f -->
 
-The address of the ALM_CONTROLLER (ForeignController) contract address is: `0x4E64b576F72c237690F27727376186639447f096`
+The address of the ALM_CONTROLLER (ForeignController) contract address is: `0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.2 - ALM Controller (ForeignController Avalanche) Contract Version [Core]  <!-- UUID: 0bf9305e-df4e-4f12-9051-a4974fd7272c -->
 
@@ -1961,19 +1960,19 @@ The ALM_CONTROLLER (ForeignController) contract version is: 1.8
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.3 - ALM Freezer Multisig (Avalanche) Address [Core]  <!-- UUID: abe7f425-65fd-4a3a-b70c-55a8f30e708d -->
 
-The address of the Multisig that has the Freezer Role is specified in TBD.
+The address of the Multisig that has the Freezer Role is specified in [A.6.1.1.1.2.6.1.2.1.2.2.3.1 - Address](51777bdd-df5f-4a6e-93f5-8163d981f595).
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.4 - ALM Relayer Multisig (Avalanche) Address [Core]  <!-- UUID: 229a9ce0-30bd-4069-a8a9-2ff911185b66 -->
 
-The address of the Multisigs that has the Relayer Role will be specified in a future iteration of the artifact.
+The address of the Multisigs that has the Relayer Role are specified in [A.6.1.1.1.2.6.1.2.1.2.2.1.1 - Address](67bf2799-8d57-44be-82e4-827912ff30df) and [A.6.1.1.1.2.6.1.2.1.2.2.2.1 - Address](567e4905-2b05-493e-95ac-8a4d20afed2b).
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.5 - ALM Proxy (Avalanche) Contract [Core]  <!-- UUID: 179f186a-079b-4663-b06c-b21f9dec85ca -->
 
-The address of the ALM_PROXY contract is: `TBD`
+The address of the ALM_PROXY contract is: `0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.6 - ALM Rate Limits (Avalanche) Contract [Core]  <!-- UUID: 43462d47-89bf-4166-88de-8601eb6ac7ad -->
 
-The address of the ALM_RATE_LIMITS contract is: `TBD`
+The address of the ALM_RATE_LIMITS contract is: `0xb79972e8B21f0dE911E65AC342ac85ad38C9A77a`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.7 - ALM Proxy Freezable (Avalanche) Contract Address [Core]  <!-- UUID: 4eb4959c-a91b-4a00-a605-138ac53b0786 -->
 
@@ -2025,7 +2024,7 @@ The address of the Multisig that has the Freezer Role is: `0x2d5Aa449FB8C5646C81
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.4 - ALM Relayer Multisig (Robinhood Chain) Address [Core]  <!-- UUID: 88d4702c-da76-4fe8-a748-65f558953276 -->
 
-The address of the Multisig that has the Relayer Role is: `0x0ca8f938Aba2214eA11eb451e795A8ef7B720C18`.
+The addresses of the Multisigs that have the Relayer Role are: `0x0ca8f938Aba2214eA11eb451e795A8ef7B720C18` and `0x52CC27896e641Cbe88F0aD36480839961A47CdF8`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.5 - ALM Proxy (Robinhood Chain) Contract [Core]  <!-- UUID: d19eab7d-e0b8-4be2-b672-40d7773c6119 -->
 
@@ -2049,11 +2048,11 @@ The ALM_CONTROLLER (ForeignController) contract version is: 1.10.0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.3 - ALM Freezer Multisig (X Layer) Address [Core]  <!-- UUID: ed5c698b-cca9-43b8-965f-1dacd3ec46b3 -->
 
-The address of the Multisig that has the Freezer Role is: `0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB`.
+The address of the Multisig that has the Freezer Role is: `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.4 - ALM Relayer Multisig (X Layer) Address [Core]  <!-- UUID: 7248a5ae-a45e-46a1-9cee-a8cb0b391ff8 -->
 
-The address of the Multisig that has the Relayer Role is: `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431`.
+The addresses of the Multisigs that have the Relayer Role are: `0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB` and `0x9330edE0Fc6E3E0D47Ebf3C145efd569796aC7F5`.
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.5 - ALM Proxy (X Layer) Contract [Core]  <!-- UUID: eac738f2-1b92-4ea2-a3e7-79fd528ae587 -->
 
