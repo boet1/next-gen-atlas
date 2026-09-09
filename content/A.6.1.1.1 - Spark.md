@@ -1834,7 +1834,7 @@ The documents herein list the ALM Contract Addresses for the Spark Liquidity Lay
 
 The address of the ALM_CONTROLLER (ForeignController) contract is: `0x86036CE5d2f792367C0AA43164e688d13c5A60A8`
 
-###### A.6.1.1.1.2.6.1.2.1.1.1.2.2.2 - ALM Controller (ForeignController Base) Contract Version Address [Core]  <!-- UUID: 2f264586-051d-4944-9c15-c271a2a8a0b5 -->
+###### A.6.1.1.1.2.6.1.2.1.1.1.2.2.2 - ALM Controller (ForeignController Base) Contract Version [Core]  <!-- UUID: 2f264586-051d-4944-9c15-c271a2a8a0b5 -->
 
 The ALM_CONTROLLER (ForeignController) contract version is: 1.8.0
 
@@ -1960,7 +1960,7 @@ This document contains the ALM Contract Addresses for the Spark Liquidity Layer 
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.1 - ALM Controller (ForeignController Avalanche) Contract Address [Core]  <!-- UUID: 2a9bf1bb-81f7-40d2-a26d-2cc7e729913f -->
 
-The address of the ALM_CONTROLLER (ForeignController) contract address is: `0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38`
+The address of the ALM_CONTROLLER (ForeignController) contract is: `0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.2 - ALM Controller (ForeignController Avalanche) Contract Version [Core]  <!-- UUID: 0bf9305e-df4e-4f12-9051-a4974fd7272c -->
 
@@ -2020,7 +2020,7 @@ This document contains the ALM Contract Addresses for the Spark Liquidity Layer 
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.1 - ALM Controller (ForeignController Robinhood Chain) Contract Address [Core]  <!-- UUID: 48b6b65d-6a28-4d33-a026-8dd6e646c610 -->
 
-The address of the ALM_CONTROLLER (ForeignController) contract address is: `0xcf8d58A6eeF2a1cae2Ce69bC463b1178FB76bA1E`
+The address of the ALM_CONTROLLER (ForeignController) contract is: `0xcf8d58A6eeF2a1cae2Ce69bC463b1178FB76bA1E`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.7.2 - ALM Controller (ForeignController Robinhood Chain) Contract Version [Core]  <!-- UUID: 13fcfb0e-3628-4dd1-9823-cdc99b478d97 -->
 
@@ -2056,7 +2056,7 @@ This document contains the ALM Contract Addresses for the Spark Liquidity Layer 
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.1 - ALM Controller (ForeignController X Layer) Contract Address [Core]  <!-- UUID: 63430cf9-0f5d-4a22-9879-6b9ecb8b9ee9 -->
 
-The address of the ALM_CONTROLLER (ForeignController) contract address is: `0xf9187C99Ee842beABE8e2e346d958315BFc9331f`
+The address of the ALM_CONTROLLER (ForeignController) contract is: `0xf9187C99Ee842beABE8e2e346d958315BFc9331f`
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.8.2 - ALM Controller (ForeignController X Layer) Contract Version [Core]  <!-- UUID: 65892a16-5e68-4a90-a2e5-89139aaa6823 -->
 
