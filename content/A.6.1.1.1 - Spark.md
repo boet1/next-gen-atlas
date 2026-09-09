@@ -1800,7 +1800,7 @@ The address of the ALM_CONTROLLER (MainnetController) contract is: `0x5c46Fc6585
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.2 - ALM Controller (MainnetController) Contract Version [Core]  <!-- UUID: d7b0b6a0-0bac-4169-a006-4a375cba4baa -->
 
-The ALM_CONTROLLER (MainnetController) contract version is: 1.10
+The ALM_CONTROLLER (MainnetController) contract version is: 1.10.0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.1.3 - ALM Freezer Multisig (Mainnet) Address [Core]  <!-- UUID: 8d6c5c86-4b70-4115-b712-65106416aa77 -->
 
@@ -1836,7 +1836,7 @@ The address of the ALM_CONTROLLER (ForeignController) contract is: `0x86036CE5d2
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.2.2 - ALM Controller (ForeignController Base) Contract Version Address [Core]  <!-- UUID: 2f264586-051d-4944-9c15-c271a2a8a0b5 -->
 
-The ALM_CONTROLLER (ForeignController) contract version is: 1.8
+The ALM_CONTROLLER (ForeignController) contract version is: 1.8.0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.2.3 - ALM Freezer Multisig (Base) Address [Core]  <!-- UUID: 5147079e-3ff5-44c5-8039-5b1d3895ceec -->
 
@@ -1872,7 +1872,7 @@ The address of the ALM_CONTROLLER (ForeignController) contract is: `0xC40611AC4F
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.3.2 - ALM Controller (ForeignController Arbitrum) Contract Version [Core]  <!-- UUID: ea182fbb-586b-4df2-ac03-ea8291702649 -->
 
-The ALM_CONTROLLER (ForeignController) contract version is: 1.8
+The ALM_CONTROLLER (ForeignController) contract version is: 1.8.0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.3.3 - ALM Freezer Multisig (Arbitrum) Address [Core]  <!-- UUID: 294230e0-d7f9-43c5-9f38-d19074b61d47 -->
 
@@ -1908,7 +1908,7 @@ The address of the ALM_CONTROLLER (ForeignController) contract is: `0xF16DE71089
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.4.2 - ALM Controller (ForeignController Unichain) Contract Version [Core]  <!-- UUID: 17ff233f-2ada-4856-be5f-f3ba2616c1b7 -->
 
-The ALM_CONTROLLER (ForeignController) contract version is: 1.8
+The ALM_CONTROLLER (ForeignController) contract version is: 1.8.0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.4.3 - ALM Freezer Multisig (Unichain) Address [Core]  <!-- UUID: 23bb04f0-d312-4230-930d-27782b73b04f -->
 
@@ -1936,7 +1936,7 @@ The address of the ALM_CONTROLLER (ForeignController) contract is: `0x689502bc81
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.5.2 - ALM Controller (ForeignController Optimism) Contract Version [Core]  <!-- UUID: 715c19b6-63bc-4eae-b8a4-0327e9a10c71 -->
 
-The ALM_CONTROLLER (ForeignController) contract version is: 1.8
+The ALM_CONTROLLER (ForeignController) contract version is: 1.8.0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.5.3 - ALM Freezer Multisig (Optimism) Address [Core]  <!-- UUID: a4cb2345-64a9-4e1f-b084-c25f6df7082a -->
 
@@ -1964,7 +1964,7 @@ The address of the ALM_CONTROLLER (ForeignController) contract address is: `0x4e
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.2 - ALM Controller (ForeignController Avalanche) Contract Version [Core]  <!-- UUID: 0bf9305e-df4e-4f12-9051-a4974fd7272c -->
 
-The ALM_CONTROLLER (ForeignController) contract version is: 1.8
+The ALM_CONTROLLER (ForeignController) contract version is: 1.8.0
 
 ###### A.6.1.1.1.2.6.1.2.1.1.1.2.6.3 - ALM Freezer Multisig (Avalanche) Address [Core]  <!-- UUID: abe7f425-65fd-4a3a-b70c-55a8f30e708d -->
 
