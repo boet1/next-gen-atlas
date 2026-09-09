@@ -2273,29 +2273,27 @@ The documents herein list the current `RateLimits` for the Spark Liquidity Layer
 
 The maximum amount of USDC that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_USDC`) is specified in the document herein.
 
-- `maxAmount`: This parameter will be specified in a future iteration of the Spark Artifact.
-- `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 50,000,000 USDC per day
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.3.2 - Arbitrum USDC Withdrawal Maximum [Core]  <!-- UUID: f7e5dc3b-b26c-4a44-9e0b-0b385ad22704 -->
 
 The maximum amount of USDC that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_USDC`) is specified in the document herein.
 
-- `maxAmount`: This parameter will be specified in a future iteration of the Spark Artifact.
-- `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
+- `maxAmount`: 50,000,000 USDC
+- `slope`: 50,000,000 USDC per day
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.3.3 - Arbitrum USDS Deposit Maximum [Core]  <!-- UUID: ddf6a5b7-5c41-4c80-8ad9-0222ef558fb4 -->
 
 The maximum amount of USDS that can be deposited into the PSM (`LIMIT_PSM_DEPOSIT_USDS`) is specified in the document herein.
 
-- `maxAmount`: This parameter will be specified in a future iteration of the Spark Artifact.
-- `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
+- `maxAmount`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.3.4 - Arbitrum USDS Withdrawal Maximum [Core]  <!-- UUID: f5a14451-b476-46ea-91e8-009f6230ac3e -->
 
 The maximum amount of USDS that can be withdrawn from the PSM (`LIMIT_PSM_WITHDRAW_USDS`) is specified in the document herein.
 
-- `maxAmount`: This parameter will be specified in a future iteration of the Spark Artifact.
-- `slope`: This parameter will be specified in a future iteration of the Spark Artifact.
+- `maxAmount`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.2.1.1.3.3.5 - Arbitrum sUSDS Deposit Maximum [Core]  <!-- UUID: 8be6ab2f-9b82-4727-be24-e2d6ac5c4c5f -->
 
