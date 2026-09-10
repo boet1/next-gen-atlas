@@ -1630,6 +1630,10 @@ The Ethereum Mainnet Instances Directory of the Superstate Protocol with `Comple
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.5.1 - Ethereum Mainnet - Superstate USTB Instance Configuration Document](4ad2419c-7966-42de-bc2a-d8ca8ce61b90).
 
+###### A.6.1.1.1.2.6.1.1.3.1.5.2 - Ethereum Mainnet - Superstate USCC Instance Configuration Document Location [Core]  <!-- UUID: f07ea0c7-633a-435e-b4c8-7c6c5aa6eb2e -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.5.2 - Ethereum Mainnet - Superstate USCC Instance Configuration Document](8296fbb7-df54-4b4d-ba1a-cde9109f10e8).
+
 ###### A.6.1.1.1.2.6.1.1.3.1.6 - Curve [Core]  <!-- UUID: e0b7c369-0ad7-491e-be3e-bdfe8ad2478c -->
 
 The Ethereum Mainnet Instances Directory of the Curve Protocol with `Completed` Status are stored herein.
@@ -8120,6 +8124,88 @@ The outflow rate limits are:
 The documents herein contain specific off-chain parameters for this Instance.
 
 ###### A.6.1.1.1.2.6.1.4.1.5.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 5cb29bf7-30f4-43ef-aca8-020d26f66fcb -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.4.1.5.2 - Ethereum Mainnet - Superstate USCC Instance Configuration Document [Core]  <!-- UUID: 8296fbb7-df54-4b4d-ba1a-cde9109f10e8 -->
+
+The documents herein contain the Instance Configuration Document for the Superstate USCC Instance.
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 09889b13-9330-4df3-8671-591c32abae20 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2 - Parameters [Core]  <!-- UUID: caf169ca-9115-4836-8b89-7a8154c428a1 -->
+
+The documents herein define the parameters of the Superstate USCC Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 37d3941a-6c95-4cb8-b13a-4ab066d85f63 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.1.1 - Network [Core]  <!-- UUID: 9d63cdf0-8c3d-49bb-8aee-2b14f3b0dbe2 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.1.2 - Target Protocol [Core]  <!-- UUID: fdec7003-177b-4904-9c0a-9eb35067b289 -->
+
+Superstate
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 3b1e1519-83f8-491f-ba74-b84c196bad84 -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.1.4 - Token [Core]  <!-- UUID: e667381a-1d25-4a4e-bd6c-7f1f2494889c -->
+
+USCC
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.2 - Contract Addresses [Core]  <!-- UUID: 9e5e1764-67a6-44cf-9416-d89233d36b66 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.2.1 - Token Address [Core]  <!-- UUID: 0d36d251-fbd2-427b-8b9b-931c794c1edc -->
+
+`0x14d60E7FDC0D71d8611742720E4C50E7a974020c`
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: ed647630-9cdc-407c-a0d1-6115d6b4ab0f -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: e8e2005e-6d36-459a-a9b5-113fa869e654 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 3b6e7ede-2958-4c2b-b7d0-792971bc0b73 -->
+
+The inflow RateLimitID is: `0x2b3ec98e03acf459020388e86f5e87bde6d50eb726ad328bb7d92ff1dba44855`
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: af123cb4-eb7a-44b3-b8ff-0ee5f86ec7bf -->
+
+The outflow RateLimitID is: `0x2d383cfff0578757af9a7cee84f91c572bbce7198a66b76200a69a30c7546aaf`
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.4 - Rate Limits [Core]  <!-- UUID: 45179690-6a64-4d48-9cd2-823a5b780c6c -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 59b757f6-9264-44ca-aae9-295786f5bb82 -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: ba43de39-8182-4712-8c1b-e7dfbe8e5574 -->
+
+The outflow rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 56392f58-8b78-4c8c-b219-ae63b470f102 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.4.1.5.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 73d4eae0-a188-488e-bc41-48bc150d645f -->
 
 The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
