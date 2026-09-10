@@ -1694,6 +1694,22 @@ The Ethereum Mainnet Instances Directory of the Fluid Protocol with `Completed` 
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.10.1 - Ethereum Mainnet - Fluid sUSDS ERC4626 Vault Instance Configuration Document](8da18a0c-2d5a-4895-ac53-804578b00a5b).
 
+###### A.6.1.1.1.2.6.1.1.3.1.11 - B2C2 [Core]  <!-- UUID: bf909abc-a64f-4aff-b13b-fb1afc95956d -->
+
+The Ethereum Mainnet Instances Directory of B2C2 with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.1.3.1.11.1 - Ethereum Mainnet - Transfer USDC to B2C2 Instance Configuration Document Location [Core]  <!-- UUID: f17b1f66-b1e3-4e49-bdb7-b2c8c326134b -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.11.1 - Ethereum Mainnet - Transfer USDC to B2C2 Instance Configuration Document](5356eff4-3aa1-4c38-9aa0-1ce509fa1458).
+
+###### A.6.1.1.1.2.6.1.1.3.1.11.2 - Ethereum Mainnet - Transfer USDT to B2C2 Instance Configuration Document Location [Core]  <!-- UUID: bbfbddc8-9791-4baf-a755-b03dd9056051 -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.11.2 - Ethereum Mainnet - Transfer USDT to B2C2 Instance Configuration Document](385d30e8-aca6-4cf2-8bd2-c90a7dcad924).
+
+###### A.6.1.1.1.2.6.1.1.3.1.11.3 - Ethereum Mainnet - Transfer PYUSD to B2C2 Instance Configuration Document Location [Core]  <!-- UUID: 95e4d33d-011c-425e-9c24-d8eda5ce0dde -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.4.1.11.3 - Ethereum Mainnet - Transfer PYUSD to B2C2 Instance Configuration Document](11be7837-9aae-4b84-85fc-e947ef4923cc).
+
 ###### A.6.1.1.1.2.6.1.1.3.2 - Base [Core]  <!-- UUID: 92fbdaeb-912e-4a94-8916-804e1cbac43b -->
 
 The documents herein contain a Directory of all Instances on Base of the Allocation System Primitive with Instance status of `Completed`.
@@ -9237,6 +9253,211 @@ The operator must decrease the `RateLimit` based on the assets redeemed.
             assets
         );
     }`
+
+###### A.6.1.1.1.2.6.1.4.1.11 - B2C2 [Core]  <!-- UUID: e3a948c7-b342-4366-a5d2-300bc8d6d830 -->
+
+The Ethereum Mainnet Instances of B2C2 with `Completed` Status are stored herein.
+
+###### A.6.1.1.1.2.6.1.4.1.11.1 - Ethereum Mainnet - Transfer USDC to B2C2 Instance Configuration Document [Core]  <!-- UUID: 5356eff4-3aa1-4c38-9aa0-1ce509fa1458 -->
+
+The documents herein contain the Instance Configuration Document for the Transfer USDC to B2C2 Instance.
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 0fcb79c1-bce0-4c22-800f-225cc2ef1fbb -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.2 - Parameters [Core]  <!-- UUID: 8b68a75b-c585-4cb9-a2c1-3ce385d2af93 -->
+
+The documents herein define the parameters of the Transfer USDC to B2C2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.2.1 - Instance Identifiers [Core]  <!-- UUID: 7bd95e3d-7582-4a96-a4ba-523995d28f42 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.2.1.1 - Network [Core]  <!-- UUID: a6dea7b1-98b1-4156-8ee0-e9daf8a62276 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.2.1.2 - Target Protocol [Core]  <!-- UUID: a9ad2c16-c268-44cd-9923-40a4a7bbe2d4 -->
+
+B2C2
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: d93e8a4e-0873-4ada-a00c-60a07f0c7168 -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.2.2 - Contract Addresses [Core]  <!-- UUID: 4df49e03-94a9-4332-a57c-a21158abbf7a -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.2.2.1 - Underlying Asset Address [Core]  <!-- UUID: d5e19b6a-92b1-4817-ae07-c6a0e85306ac -->
+
+`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.2.2.2 - Recipient Address [Core]  <!-- UUID: 7db40d1e-0474-48cf-9f35-1db946c0ae9c -->
+
+`0xa29e963992597b21bcdcaa969d571984869c4ff5`
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.2.3 - Rate Limit IDs [Core]  <!-- UUID: 698aa9b3-0097-4757-9ff9-b44c6fb36849 -->
+
+The specific `RateLimitID` for this conduit's transfer operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: 01e0d427-6491-4726-b2b4-64770a273e4b -->
+
+The transfer RateLimitID is: `0xb8fc30adf3ded7913423690e12c24ecb08b00c35129cec588238880b8d79f601`
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.2.4 - Rate Limits [Core]  <!-- UUID: 17748446-546f-4474-b8f5-9b01223921bf -->
+
+The current `maxAmount` and `slope` for this conduit's transfer operation are defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.2.4.1 - Transfer Rate Limits [Core]  <!-- UUID: d7a81e6d-7832-4b44-85ba-2f91c5de5f41 -->
+
+The transfer rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 627a217c-9463-401e-b346-efa10f97b4e4 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.4.1.11.1.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 6d05d10b-ea24-490a-a5ce-90fec9da8931 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.4.1.11.2 - Ethereum Mainnet - Transfer USDT to B2C2 Instance Configuration Document [Core]  <!-- UUID: 385d30e8-aca6-4cf2-8bd2-c90a7dcad924 -->
+
+The documents herein contain the Instance Configuration Document for the Transfer USDT to B2C2 Instance.
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 3248785c-fa5d-44c6-b0c3-b34f4db1a7f5 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.2 - Parameters [Core]  <!-- UUID: 9cc1b805-87d0-4aec-8518-674edb387817 -->
+
+The documents herein define the parameters of the Transfer USDT to B2C2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.2.1 - Instance Identifiers [Core]  <!-- UUID: e732b079-9d9e-4ce5-b62d-3d0bd2bd72e6 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.2.1.1 - Network [Core]  <!-- UUID: 4cb29b07-69c0-4257-b438-3848f40d61f0 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.2.1.2 - Target Protocol [Core]  <!-- UUID: 9944056f-95c8-4795-81b8-5aa63454f194 -->
+
+B2C2
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: 3999540a-48c4-4332-af36-b79297d56b4e -->
+
+USDT
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.2.2 - Contract Addresses [Core]  <!-- UUID: 8313b4df-e095-45b1-b53c-0b9cf5d126d9 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.2.2.1 - Underlying Asset Address [Core]  <!-- UUID: 0ab3802c-67b6-4a85-a2c1-ecfad9cb7410 -->
+
+`0xdAC17F958D2ee523a2206206994597C13D831ec7`
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.2.2.2 - Recipient Address [Core]  <!-- UUID: 43a1d1b7-1eb1-420a-815b-b6c4709d85f1 -->
+
+`0xa29e963992597b21bcdcaa969d571984869c4ff5`
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: bb5be3d9-7d06-4894-8ab4-0120e901bd8f -->
+
+The specific `RateLimitID` for this conduit's transfer operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: 6780e453-f474-4be6-b56a-458463ea59cf -->
+
+The transfer RateLimitID is: `0x7023c5a763f320798c8982612962b6907672c319e0be20cb2ccaf4e6dadb1c20`
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.2.4 - Rate Limits [Core]  <!-- UUID: ca98ec3f-21bf-4eb0-bd31-acd689f936b3 -->
+
+The current `maxAmount` and `slope` for this conduit's transfer operation are defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.2.4.1 - Transfer Rate Limits [Core]  <!-- UUID: 17bf66bc-ec6c-4bb0-8b0d-516d827ab2e0 -->
+
+The transfer rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 5fd93496-886e-4312-a1bd-c0d5811548c2 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.4.1.11.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: b7cc3b16-d998-4c67-993f-d761990c8244 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.4.1.11.3 - Ethereum Mainnet - Transfer PYUSD to B2C2 Instance Configuration Document [Core]  <!-- UUID: 11be7837-9aae-4b84-85fc-e947ef4923cc -->
+
+The documents herein contain the Instance Configuration Document for the Transfer PYUSD to B2C2 Instance.
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 5c508ae6-f503-4aa5-b757-d0268edf2fbe -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.2 - Parameters [Core]  <!-- UUID: 61fb5133-a616-4fc7-a65e-f4079899acc2 -->
+
+The documents herein define the parameters of the Transfer PYUSD to B2C2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.2.1 - Instance Identifiers [Core]  <!-- UUID: ed2579d4-e98e-49c9-a3da-25296cce9a21 -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.2.1.1 - Network [Core]  <!-- UUID: c914691c-6c91-4b2b-8bd8-b9e0a33b5358 -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.2.1.2 - Target Protocol [Core]  <!-- UUID: 119adc3c-1cc2-44bc-b653-7c862104878d -->
+
+B2C2
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: e866a862-d0bf-4ab7-a078-72259cbe0a48 -->
+
+PYUSD
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.2.2 - Contract Addresses [Core]  <!-- UUID: a023fb21-e65d-48d3-8539-c458d216d3a8 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.2.2.1 - Underlying Asset Address [Core]  <!-- UUID: 5c7ee9a6-487b-45e8-a083-dedfc6851361 -->
+
+`0x6c3ea9036406852006290770BEdFcAbA0e23A0e8`
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.2.2.2 - Recipient Address [Core]  <!-- UUID: 3dc02bde-32cc-47f6-aebc-823de73c015d -->
+
+`0xa29e963992597b21bcdcaa969d571984869c4ff5`
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: 7806ac42-ddcd-4226-a21d-f17697dbefb1 -->
+
+The specific `RateLimitID` for this conduit's transfer operation is defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.2.3.1 - Transfer Rate Limit ID [Core]  <!-- UUID: d2bb68a6-5514-4efd-9939-b368c96a365f -->
+
+The transfer RateLimitID is: `0x269352dae36287890dd36900fb29eb2f9171b3927369cde7eee4f4eb4dc86ede`
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.2.4 - Rate Limits [Core]  <!-- UUID: 20b43f0a-2e0e-4ac9-bd6a-30ea5cf83d1f -->
+
+The current `maxAmount` and `slope` for this conduit's transfer operation are defined in the subdocument herein.
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.2.4.1 - Transfer Rate Limits [Core]  <!-- UUID: d6d9da32-2cf8-47e0-9c02-9a8fa67fd997 -->
+
+The transfer rate limits are:
+
+- `maxAmount`: 0
+- `slope`: 0
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: b0261ef3-e23a-4b01-8a58-7bb4c3c72944 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.4.1.11.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 37f16825-2c4b-4576-871e-50e6ab8d4c79 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
 
 ###### A.6.1.1.1.2.6.1.4.2 - Base Instances [Core]  <!-- UUID: 21a1f702-9915-499c-864f-e1018443af0a -->
 
