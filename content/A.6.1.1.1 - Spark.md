@@ -4021,7 +4021,6 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.1.7.2.4.3 - Maximum Slippage [Core]  <!-- UUID: a19c6537-48a2-4614-a5d8-c911bfc65fc1 -->
 
@@ -4107,7 +4106,6 @@ The inflow rate limits are:
 The outflow rate limits are:
 
 - `maxAmount`: Unlimited
-- `slope`: Unlimited
 
 ###### A.6.1.1.1.2.6.1.3.1.1.8.2.4.3 - Maximum Slippage [Core]  <!-- UUID: 8a4a1319-e2cb-4970-ac2a-1a29c868940c -->
 
