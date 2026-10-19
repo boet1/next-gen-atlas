@@ -1430,6 +1430,10 @@ This Instance’s associated Instance Configuration Document is located at [A.6.
 
 This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.5.2 - Ethereum Mainnet - Spark Blue Chip USDT Vault Instance Configuration Document](2019122c-c16d-4132-ae08-8416c3f83b23).
 
+###### A.6.1.1.1.2.6.1.1.2.1.5.3 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document Location [Core]  <!-- UUID: 5427805e-0b3c-4dbd-bde5-f027e70a9cdf -->
+
+This Instance’s associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.1.5.3 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document](111e9f8c-170b-4373-827a-68f3277cacf1).
+
 ###### A.6.1.1.1.2.6.1.1.2.1.6 - Spark Savings V2 [Core]  <!-- UUID: e59ca947-aa8d-4ab7-84b1-78422348a2d5 -->
 
 The Ethereum Mainnet Instances Directory of the Spark Savings v2 with `Active` Status are stored herein.
@@ -1609,6 +1613,10 @@ The X Layer Instances Directory of the Spark Savings v2 Protocol with `Active` S
 ###### A.6.1.1.1.2.6.1.1.2.6.1.1 - X Layer - Spark Savings v2 USDT Instance Configuration Document Location [Core]  <!-- UUID: 9c5abebd-6cfe-407c-9cda-5a397dd54ee8 -->
 
 This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.6.1.1 - X Layer - Spark Savings v2 USDT Instance Configuration Document](8c303f01-617d-40aa-9f4f-181af2c6e040)
+
+###### A.6.1.1.1.2.6.1.1.2.6.1.2 - X Layer - Spark Savings v2 USDC Instance Configuration Document Location [Core]  <!-- UUID: f8140bfe-fb6c-4cdd-85ec-4be6273bc18d -->
+
+This Instance's associated Instance Configuration Document is located at [A.6.1.1.1.2.6.1.3.6.1.2 - X Layer - Spark Savings v2 USDC Instance Configuration Document](e81abdf1-02ba-4363-835d-12ade226c2a3)
 
 ###### A.6.1.1.1.2.6.1.1.3 - Completed Instances Directory [Core]  <!-- UUID: 1df4d054-4443-4c64-b34b-c9fce456276b -->
 
@@ -2086,6 +2094,42 @@ The address of the ALM_PROXY_FREEZABLE contract is: `0x9449ed367C60ea757544fd990
 
 The version of the ALM_PROXY_FREEZABLE contract is: 1.12.0
 
+###### A.6.1.1.1.2.6.1.2.1.1.1.3 - Diamond PAU Contracts [Core]  <!-- UUID: 75d44d51-0d4f-4fa1-8a4e-bee115250d97 -->
+
+The documents herein define the addresses of the Diamond Parallelized Allocation Unit (Diamond PAU) contracts deployed for the Spark Liquidity Layer. The Diamond PAU is a modular implementation of the Allocation System in which the Controller dispatches operations to Facet contracts, with integration configurations held in a Beacon contract. The Beacon and Facet contracts follow the shared Diamond PAU architecture specified in [A.2.2.10.1.1.1.2.3 - Liquidity Layer Shared Contracts](a2677d19-1f2c-4361-bedc-34cb2e7eaab5). The addresses used by the Arbitrum deployment are specified below.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.1 - Arbitrum [Core]  <!-- UUID: 2a6d1e9b-e36f-4678-9934-2a81820fcbf5 -->
+
+The documents herein define the addresses of the Diamond PAU contracts on Arbitrum.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.1 - ALM Proxy Contract [Core]  <!-- UUID: ca9912e4-4cd2-492a-bb6d-ef48279748b9 -->
+
+The address of the ALM Proxy contract is: `0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709`.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.2 - Controller Contract [Core]  <!-- UUID: 7ac9c640-d491-4667-ab06-c97e126e94c8 -->
+
+The address of the Controller contract is: `0x04ACB9e9bbd64A425677edC535D6B30cfD74E42f`. The Controller is the entry point for all allocator operations; it synchronizes integration configurations from the Beacon contract and dispatches calls to the appropriate facet contract.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.3 - AccessControls Contract [Core]  <!-- UUID: 52bbb3e1-bcdd-49ca-a85b-53c42ea07780 -->
+
+The address of the AccessControls contract is: `0x8386f819860D54B1180539Ff4852E4CAECef8A1D`. The AccessControls contract manages the roles and permissions of the Diamond PAU, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.4 - ALM Rate Limits Contract [Core]  <!-- UUID: 868ee6f4-1796-4356-b5f2-c841d01348c9 -->
+
+The address of the ALM Rate Limits contract is: `0x4824C4336a1a11979068A544958dCe5D49B42752`. The ALM Rate Limits contract enforces the rate limits on operations performed through the Controller contract.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.5 - AdministeredAgent Contract [Core]  <!-- UUID: 3afc0502-e0ba-45a1-ae05-fe539053cf07 -->
+
+The address of the AdministeredAgent contract is: `0x0745aae633E8318a063D383791bCc0d8C82F46C6`. The AdministeredAgent holds the Allocator Role of the Diamond PAU and mediates relayer access to the Controller: the ALM Relayer Multisig and the Spark hot wallet are registered as its actors and submit operations through it, while the ALM Freezer Multisig and the Soter Labs freezer multisig are registered as revokers authorized to remove a compromised actor, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions](b91ec0f7-9b6d-4845-8d01-1d788644a2f3).
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.6 - Beacon Contract [Core]  <!-- UUID: e7ef2fd6-d98a-454d-9dd5-1cb0dc739101 -->
+
+The address of the Beacon contract is: `0x86036CE5d2f792367C0AA43164e688d13c5A60A8`. The Beacon is controlled by Sky Governance through the Arbitrum Sky Governance Relay (`0x10E6593CDda8c58a1d0f14C5164B376352a55f2F`), which is the sole holder of its `DEFAULT_ADMIN_ROLE`.
+
+###### A.6.1.1.1.2.6.1.2.1.1.1.3.1.7 - CCTP Facet Contract [Core]  <!-- UUID: 29be03da-9d81-487a-8d3a-7ebd80bffd44 -->
+
+The address of the CCTP Facet contract is: `0xeCCA0D296Cb133081d41E9772B60D57F5fd2798E`.
+
 ###### A.6.1.1.1.2.6.1.2.1.1.2 - Off-Chain Operational Parameters [Core]  <!-- UUID: 257dcfcb-9bb8-4989-a063-69ae4f01f224 -->
 
 The documents herein list the off-chain operational parameters for the Spark Liquidity Layer on each blockchain. These operational parameters are protocol settings managed outside of smart contracts (off-chain), used by operators and off-chain systems to guide the functioning of the Spark Liquidity Layer.
@@ -2456,6 +2500,43 @@ The maximum amount of USDT that can be sent to the X Layer ALM Proxy is specifie
 - `maxAmount`: 5,000,000 USDT
 - `slope`: 100,000,000 USDT per day
 
+###### A.6.1.1.1.2.6.1.2.1.1.4 - Diamond PAU Rate Limit IDs [Core]  <!-- UUID: cbb7bb48-b526-45f5-8725-0545e4168a8d -->
+
+The documents herein define the rate limit IDs used by the Spark Diamond PAU deployments.
+
+###### A.6.1.1.1.2.6.1.2.1.1.4.1 - Arbitrum [Core]  <!-- UUID: ddfdafe0-24a3-406f-a715-2b45b0d2c6f9 -->
+
+The documents herein define the CCTP rate limit IDs for the Arbitrum Diamond PAU.
+
+###### A.6.1.1.1.2.6.1.2.1.1.4.1.1 - Aggregate CCTP Rate Limit ID [Core]  <!-- UUID: acebd93a-f9b4-41c8-9f73-1cb7e2748f4d -->
+
+The Aggregate CCTP RateLimitID (`cctp_toCCTPRateLimitKey()`) is: `0x0476a9fd902eafdb5bcdabd9f0523dd7aacf7aa0c38c0e6ab912f5fed00f8e11`.
+
+###### A.6.1.1.1.2.6.1.2.1.1.4.1.2 - CCTP To Ethereum Rate Limit ID [Core]  <!-- UUID: f473b9e4-0f75-4b23-80d6-c7498b47ae29 -->
+
+The CCTP To Ethereum RateLimitID (`cctp_getToDomainRateLimitKey(0)`, Circle domain 0) is: `0x90b598dae614822d554ec4f627bb5feab505106473a7911f34b36c0b3b9695c7`.
+
+###### A.6.1.1.1.2.6.1.2.1.1.5 - Diamond PAU Rate Limits [Core]  <!-- UUID: e3ecf860-59dc-4d7b-b3cd-fb4311f4c2a9 -->
+
+The documents herein list the rate limits for the Spark Diamond PAU deployments.
+
+###### A.6.1.1.1.2.6.1.2.1.1.5.1 - Arbitrum [Core]  <!-- UUID: 377cd36c-d686-4ffb-adfa-1797026d9d7f -->
+
+The documents herein define the rate limits for the Arbitrum Diamond PAU. These values are managed through the Arbitrum PAS Configurator by a registered and accordant cBEAM, within the bounds held in BeamState, as specified in [A.2.2.10.1.1.1.2.4.2.4.1 - Operator Execution](ebc97af0-11d3-4c66-8a7d-bbd34fc92a9b). The current on-chain values can be queried, as specified in [A.2.2.10.1.1.1.2.5.3.1 - RateLimits Query](1cb17b82-a294-4942-8183-4d90b224a79d).
+
+###### A.6.1.1.1.2.6.1.2.1.1.5.1.1 - Aggregate CCTP Limit [Core]  <!-- UUID: 82ca150f-9b76-4225-9426-18236a155ff2 -->
+
+The aggregate CCTP limit is specified in the document herein.
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.2.1.1.5.1.2 - CCTP To Ethereum Limit [Core]  <!-- UUID: 6d726af1-e51f-4664-b5f2-bcb8caf07c03 -->
+
+The maximum amount of USDC that can be bridged from the Arbitrum ALM Proxy to the Ethereum ALM Proxy through CCTP v2 is specified in the document herein.
+
+- `maxAmount`: 5,000,000 USDC
+- `slope`: 50,000,000 USDC per day
+
 ###### A.6.1.1.1.2.6.1.2.1.2 - Governance Processes [Core]  <!-- UUID: 9e74aa40-898f-4389-ba3d-8590c12f075d -->
 
 The documents herein describe the specific governance processes for the Spark Liquidity Layer.
@@ -2601,6 +2682,48 @@ The `ALM_CONTROLLER_ROLE` is the address of the role that can call the `call` fu
 ###### A.6.1.1.1.2.6.1.2.2.1.1.4 - Freezer Role [Core]  <!-- UUID: 02a614ea-1d6b-4197-b39b-49de676092cb -->
 
 The `FREEZER_ROLE` is the address of the emergency role that can remove a compromised Relayer.
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5 - Diamond PAU Role Hierarchy And Permissions [Core]  <!-- UUID: b91ec0f7-9b6d-4845-8d01-1d788644a2f3 -->
+
+The documents herein define the roles and permissions of the Spark Diamond PAU deployments. Controller access roles are managed by AccessControls; the AdministeredAgent maintains its own admins, actors, grantors and revokers.
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.1 - Arbitrum [Core]  <!-- UUID: 25e313e8-0df4-4198-85f7-a133d81e562f -->
+
+The documents herein define the roles and permissions of the Arbitrum Diamond PAU. The existing ForeignController and its role configuration remain in service independently.
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.1 - Default Admin Role [Core]  <!-- UUID: cf2088f4-c708-4b07-96f1-c040659a2ac7 -->
+
+The `DEFAULT_ADMIN_ROLE` is the administrative role held on both the AccessControls contract and the ALM Rate Limits contract. It is authorized to grant and revoke roles on both contracts, to exercise Controller and facet admin functions through AccessControls, and to set rate limits on the ALM Rate Limits contract. The Default Admin Role is held on both contracts by the Arbitrum Spark Executor (`0x65d946e533748A998B1f0E430803e39A6388f7a1`) and by the Arbitrum PAS Configurator (`0xd11Dc57F3eF23bb7b3142588a461F68460a7C474`), as specified in [A.2.2.10.1.1.1.2.3.2.5 - Configurator](34423259-8fc5-4761-af8b-734332d2ada5).
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.2 - Controller Role [Core]  <!-- UUID: e4272501-fb7c-4ee2-8b15-6f7263317c8b -->
+
+The `CONTROLLER` role is authorized to call the `call` functions on the ALM Proxy contract and to update the ALM Rate Limits contract. The Controller Role is held by the Controller contract, which dispatches operations to the relevant Facet contract on behalf of the Allocator Role.
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.3 - Allocator Role [Core]  <!-- UUID: fc3f9328-6fdc-4571-a515-5a193acacd0a -->
+
+The `ALLOCATOR_ROLE` is authorized to call functions on the Controller contract to perform operations on behalf of the ALM Proxy contract. The Allocator Role is held by the AdministeredAgent contract, as specified in [A.6.1.1.1.2.6.1.2.1.1.1.3.1.5 - AdministeredAgent Contract](3afc0502-e0ba-45a1-ae05-fe539053cf07), which mediates access for the Spark Liquidity Layer relayer system. This role was granted at deployment; actor changes do not transfer the Allocator Role to those actors.
+
+Actors submit allocation operations through the AdministeredAgent. The Arbitrum Diamond PAU actors are:
+
+- ALM Relayer Multisig: `0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB`.
+- Spark hot wallet: `0x062cE42caE04c51D04E77e3D64cc8953a2296FfE`.
+
+Actors can initiate `cctp_transfer` through the Controller within its configured limits and to the Ethereum ALM Proxy only. If the Spark hot wallet is an EOA, a single key can exercise this operational access.
+
+An actor may be removed from the AdministeredAgent by an address holding the Freezer Role, as specified in [A.6.1.1.1.2.6.1.2.2.1.1.5.1.4 - Freezer Role](bd20f786-b4af-4d5b-b29a-d84050a8fa2d).
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.4 - Freezer Role [Core]  <!-- UUID: bd20f786-b4af-4d5b-b29a-d84050a8fa2d -->
+
+The Freezer Role is authorized to remove a compromised or malicious relayer actor from the AdministeredAgent contract as a rapid-response measure, without recourse to the standard governance process. The Freezer Role is held by the following multisigs, registered as revokers of the AdministeredAgent:
+
+- ALM Freezer Multisig: `0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431`.
+- Soter Labs freezer multisig: `0x747BF29B189e2a070a921Af7Cf65681E3d5F5967`.
+
+Removing an actor revokes its ability to submit operations through the Allocation System, while the Allocator Role itself remains held by the AdministeredAgent. Removing an actor does not remove any relayer permission that the same address holds on the legacy ForeignController.
+
+###### A.6.1.1.1.2.6.1.2.2.1.1.5.1.5 - Grantor [Core]  <!-- UUID: 64f794c9-db5f-4875-a800-3da12f4c5bec -->
+
+The Grantor is authorized to add actors to the AdministeredAgent. The grantor is the Soter Labs grantor multisig: `0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7`. It replaces the PAU Grantor Multisig (`0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514`), whose grantor authorization is removed.
 
 ###### A.6.1.1.1.2.6.1.2.2.1.2 - Controller Functions [Core]  <!-- UUID: 92e30e64-76dd-493d-be14-2088892e11b1 -->
 
@@ -5061,6 +5184,147 @@ The documents herein define the Instance contract addresses.
 
 Timelock: 240 hours (10 days)
 
+###### A.6.1.1.1.2.6.1.3.1.5.3 - Ethereum Mainnet - Sentora RLUSD Morpho Vault V2 Instance Configuration Document [Core]  <!-- UUID: 111e9f8c-170b-4373-827a-68f3277cacf1 -->
+
+The documents herein contain the Instance Configuration Document for the Sentora RLUSD Morpho Vault V2 Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.1 - RRC Framework Full Implementation [Core]  <!-- UUID: 89936ba2-5b23-4e76-be56-11819ca0828d -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2 - Parameters [Core]  <!-- UUID: 6c40f96f-812f-48fd-8d86-ffdfcea360c5 -->
+
+The documents herein define the parameters of the Sentora RLUSD Morpho Vault V2 Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.1 - Instance Identifiers [Core]  <!-- UUID: 8b4bbdf8-6b0e-4f67-9027-a12ceb4c6f1a -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.1.1 - Network [Core]  <!-- UUID: f04f6b39-d557-43ab-8eac-723e6dac30ce -->
+
+Ethereum Mainnet
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.1.2 - Target Protocol [Core]  <!-- UUID: 746a5eb7-c3e4-481f-a4c1-cacb7de72797 -->
+
+Morpho Vaults V2
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.1.3 - Asset Supplied By Spark Liquidity Layer [Core]  <!-- UUID: e07bb7d6-ba1e-481c-98e3-d64a3cc64248 -->
+
+RLUSD
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.1.4 - Token [Core]  <!-- UUID: 92010051-063e-4dd3-93cd-481d21d84a80 -->
+
+sxsRLUSD
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.2 - Contract Addresses [Core]  <!-- UUID: a22b8b0a-b446-48be-af71-1f2501cac156 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.2.1 - Token Address [Core]  <!-- UUID: eb847f84-0071-476a-b480-0e88dad694dd -->
+
+`0xFC8C624B6080a0a780583799f2A862DE936F6E22`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 466c2918-ded4-44cf-b7fe-3d8e4794c15e -->
+
+`0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.2.3 - Allocator Role Address [Core]  <!-- UUID: 4310527e-f12c-42f8-92c5-99def334be77 -->
+
+`0x9e396dE3312D373b87F9BD8763fb48184b42aac0`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.3 - Rate Limit IDs [Core]  <!-- UUID: a5ceda84-1a52-4b4b-8cbc-20947773f121 -->
+
+The specific `RateLimitID`(s) for this conduit’s inflow and outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.3.1 - Inflow Rate Limit ID [Core]  <!-- UUID: 1d4d28d3-a8b0-4f3a-81f7-15faa841eaae -->
+
+The inflow RateLimitID is: `0x691ad49e27e69925e77760c0b0a78a8f01f21e1b1223c2e21ba82acb0fa17ea5`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.3.2 - Outflow Rate Limit ID [Core]  <!-- UUID: 54b85496-2102-441b-982a-dc111625067f -->
+
+The outflow RateLimitID is: `0x35a1e343579b7d855c67c8a121444658ed92733d2929b4b0ffdf01f01ac9a062`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.4 - Rate Limits [Core]  <!-- UUID: bd713d89-4d39-4fc6-b7dd-f7213053635b -->
+
+The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.4.1 - Inflow Rate Limits [Core]  <!-- UUID: 35eb7309-33dd-4a20-ad2b-2fd260a150ee -->
+
+The inflow rate limits are:
+
+- `maxAmount`: 10,000,000 RLUSD
+- `slope`: 100,000,000 RLUSD per day
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: 0c1a4694-d980-488c-b3a2-540d3b784a59 -->
+
+The outflow rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 46376283-cdef-4055-bc94-1121fe5427d6 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.3 - Instance-specific Operational Processes [Core]  <!-- UUID: 878f1380-9240-4735-a89b-dac749281903 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: e664fac5-5e79-4605-b2cf-f6c1f909694a -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.1 - Contract Addresses [Core]  <!-- UUID: 5c92f8e0-4fa7-460d-a9ba-3bb011387d72 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.1.1 - Curator Role Address [Core]  <!-- UUID: 072ceda6-e5cd-4cce-b589-02d553bf5fee -->
+
+`0xff070333654aaE76A0A77465E4F0fd101C57c03F`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.1.2 - Guardian Role Address [Core]  <!-- UUID: f9522bc0-64b0-47e3-ae97-91380b31b9de -->
+
+`0xf5748bBeFa17505b2F7222B23ae11584932C908B`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.2 - Timelocks [Core]  <!-- UUID: d547c23a-049b-46b2-81fe-e6a4c0105555 -->
+
+The timelocks for this Instance are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.2.1 - addAdapter Timelock [Core]  <!-- UUID: eff49a08-d7ac-4924-91eb-5d24070f84fa -->
+
+Timelock: 168 hours (7 days)
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.2.2 - increaseAbsoluteCap Timelock [Core]  <!-- UUID: 942dda17-24e9-4499-a66d-b121db09b52f -->
+
+Timelock: 168 hours (7 days)
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.2.3 - abdicate Timelock [Core]  <!-- UUID: c5623574-df3a-4607-8064-6e205fb1a7a1 -->
+
+Timelock: 168 hours (7 days)
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.2.4 - setIsAllocator Timelock [Core]  <!-- UUID: 8a04d5cc-3647-40ff-aeeb-aa8473fe0e4c -->
+
+Timelock: 72 hours (3 days)
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.3 - Max Exchange Rate [Core]  <!-- UUID: 3d2ac2f8-82a6-48bf-9c92-c8290fec64de -->
+
+Controllers now have protections that require a `maxExchangeRate` to be set for deposits. The following ensures 1 share can represent at most 3 RLUSD:
+
+- `setMaxExchangeRate(SENTORA_RLUSD_VAULT, 1e18, 3e18)`
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.4 - Force-Deallocate Penalty [Core]  <!-- UUID: 31442285-5a0d-4737-bc20-5eaf5c04624c -->
+
+Force-Deallocate Penalty: 0.01%
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.5 - Market Exposure [Core]  <!-- UUID: 92014d81-588c-4063-932a-85e708a26b2e -->
+
+The documents herein contain exposure details for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.1.5.3.4.5.1 - WBTC/RLUSD 86% LLTV Pool [Core]  <!-- UUID: 76161801-e958-402c-9c68-ab3f9e19d85d -->
+
+- Pool ID: 0xa128dddc761075df9a9a60689f3a41a989b245aad506352c509c0c3a76a9ec6b
+- Absolute cap: 250 million
+- Relative cap: 10%
+
 ###### A.6.1.1.1.2.6.1.3.1.6 - Spark Savings V2 [Core]  <!-- UUID: 47f2b461-1d82-4ee8-8cd2-39c95184c51b -->
 
 The Ethereum Mainnet Instances of the Spark Savings v2 with `Active` Status are stored herein.
@@ -7483,6 +7747,127 @@ The transferAssets rate limits are:
 
 - `maxAmount`: Unlimited
 
+###### A.6.1.1.1.2.6.1.3.6.1.2 - X Layer - Spark Savings v2 USDC Instance Configuration Document [Core]  <!-- UUID: e81abdf1-02ba-4363-835d-12ade226c2a3 -->
+
+The documents herein contain the Instance Configuration Document for the Spark Savings v2 USDC Instance.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.1 - RRC Framework Full Implementation [Core]  <!-- UUID: f8f6347a-fdc7-42ad-bf95-027c580d3003 -->
+
+**`Pending`**
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2 - Parameters [Core]  <!-- UUID: 6cb7f6a1-c8fe-4f23-b812-4e17e556c5eb -->
+
+The documents herein define the parameters of the Spark Savings v2 USDC Instance of the Allocation System Primitive.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.1 - Instance Identifiers [Core]  <!-- UUID: 0e9121f5-4a1b-47d7-8d8f-1d2a4a9d6e9a -->
+
+The documents herein define the Instance identifiers
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.1.1 - Network [Core]  <!-- UUID: d04a8b33-4740-4cf3-84b6-348ca2e66761 -->
+
+X Layer
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.1.2 - Target Protocol [Core]  <!-- UUID: f07111f8-aa28-4093-85e6-6cf9bfa259fd -->
+
+Spark Savings Protocol
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.1.3 - Asset Supplied By Users [Core]  <!-- UUID: ff5f3b93-e5bf-456b-8d80-6db25c252a35 -->
+
+USDC
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.1.4 - Token [Core]  <!-- UUID: e460853b-b5ba-4eab-95f0-16f954f47f89 -->
+
+spUSDC
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.2 - Contract Addresses [Core]  <!-- UUID: 45a29370-9a86-46d3-acf6-f21e45ad6c59 -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.2.1 - Token Address [Core]  <!-- UUID: 35179b96-7330-49d3-a901-ad40c1593898 -->
+
+`0xf90E63079D97a0A1f479b2b168457F420CAFf6ba`
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.2.2 - Underlying Asset Address [Core]  <!-- UUID: 8536122f-e274-4bbd-9cfc-126c7914fddc -->
+
+`0xB6CEceAB302E2E4948951eE7843FC24E92933061`
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.3 - Rate Limit IDs [Core]  <!-- UUID: af487cf6-6a0e-4fd5-b6b8-93a62e88b6cc -->
+
+The specific `RateLimitID`(s) for this conduit's inflow and outflow will be specified in a future iteration of the Spark Artifact.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.4 - Rate Limits [Core]  <!-- UUID: 76b38f05-c7bb-4633-9fb0-3a3f17dd57a8 -->
+
+The specific `maxAmount` and `slope` for this conduit's inflow/outflow are not defined for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.2.5 - Off-chain Operational Parameters [Core]  <!-- UUID: 0530cbd1-ab77-4cdc-8f07-e282df66db48 -->
+
+The documents herein contain specific off-chain parameters for this Instance.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.3 - Instance-specific Operational Processes [Core]  <!-- UUID: d3a9abd3-4e4c-4ffa-a1c5-dafe8849eae8 -->
+
+The documents herein contain operational procedures or monitoring requirements unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer processes.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4 - Instance-specific Operational Parameters [Core]  <!-- UUID: dc3e3857-dff7-4779-afcb-5e9c2c1a2a0a -->
+
+The documents herein contain operational parameters or configuration details unique to this Instance that deviate from or otherwise supplement the general Spark Liquidity Layer parameters.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.1 - Contract Addresses [Core]  <!-- UUID: a2c048d3-0ed7-44e5-9aa0-736d18b6e19c -->
+
+The documents herein define the Instance contract addresses.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.1.1 - Spark Vault v2 Implementation [Core]  <!-- UUID: 8e587ccc-45cc-49b2-83d2-947cd784d53c -->
+
+`0xdCe929A335C75a1676EF5957A4D7a3b928C48820`
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.1.2 - Default admin [Core]  <!-- UUID: ce6c7101-b068-4a1e-a3f1-120983f542c4 -->
+
+`0xCF5af6F53ceC74B791cb4182aC778ca9CD323510`
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.1.3 - Setter [Core]  <!-- UUID: ffa724be-0370-45e5-ad65-d84d23470dd3 -->
+
+`0x79b4055Eda153f739B5EA63C9B647c1a095059f5`
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.1.4 - Taker [Core]  <!-- UUID: 94c52903-9978-4f3d-8f6e-770697b3cdde -->
+
+`0xe6D5d041Fc5e7fDD0A53C13e78a1cc7e4ffCb667`
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.2 - Risk Parameters Current Configuration [Core]  <!-- UUID: a64b6225-b9d6-4631-a625-2f36140b461f -->
+
+The subdocuments herein define the current configuration of the risk parameters.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.2.1 - Spark Savings USDC Risk Parameters [Core]  <!-- UUID: 173f0dbd-7c3b-4435-8a8d-04d76478a9df -->
+
+The Risk parameters are:
+
+- Supply cap: 500,000,000 USDC
+- Max yield: 6%
+- Current yield (at launch): 0%
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.2.2 - Rate Limits [Core]  <!-- UUID: 6160b63f-6195-4be6-91e3-792ee9bc1c43 -->
+
+The current `maxAmount` for this conduit's take and transfer rate operations are defined in the subdocuments herein.
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.2.2.1 - Take Rate Limits [Core]  <!-- UUID: 4ef1e561-5391-4e12-9019-896a6efe8044 -->
+
+The take rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.2.2.2 - Transfer Rate Limits [Core]  <!-- UUID: 5a9d6bec-117f-47a7-b8a3-724862e88b4f -->
+
+The transfer rate limits are:
+
+- `maxAmount`: Unlimited
+
+###### A.6.1.1.1.2.6.1.3.6.1.2.4.3 - Savings Vault Intents Configuration [Core]  <!-- UUID: 1b249a4f-85d7-471f-b3c5-68b674cfb4d2 -->
+
+The `SavingsVaultIntents` configuration for the whitelisted X Layer spUSDC vault is:
+
+- `SavingsVaultIntents`: `0x5bCD2f30FA1Bf675d5d6E793DAD7DdD487D21865`
+- Minimum assets per intent: 1,000,000 USDC
+- Maximum assets per intent: 500,000,000 USDC
+- Relayer (spUSDC PAU Administered Agent): `0x79b4055Eda153f739B5EA63C9B647c1a095059f5`
+
 ##### A.6.1.1.1.2.6.1.4 - Completed Instances [Core]  <!-- UUID: ed8c3394-ee05-496c-8dd6-4d5275d2ed1f -->
 
 The Instances of the Spark Liquidity Layer with `Completed` Status are stored herein.
@@ -8462,8 +8847,8 @@ The current `maxAmount` and `slope` for this conduit’s inflow/outflow are defi
 
 The inflow rate limits are:
 
-- `maxAmount`: 250,000,000 USDe
-- `slope`: 100,000,000 USDe per day
+- `maxAmount`: 0
+- `slope`: 0
 
 ###### A.6.1.1.1.2.6.1.4.3.4.2.2.4.2 - Outflow Rate Limits [Core]  <!-- UUID: a58592c6-f4f0-4874-bee1-ef11fb91c544 -->
 
@@ -9558,9 +9943,9 @@ At the end of a Delegate's six (6) month term (see [A.6.1.1.1.3.1.3.4.3 - Minimu
 
 Delegates are compensated for their service as follows:
 
-1. Compensation Amount. Active Delegates receive USD 4,000 per calendar month.
+1. Compensation Amount. The Spark Foundation determines compensation for Active Delegates in its sole discretion, subject to both a maximum of USD 4,000 per Delegate per calendar month of service and a maximum of USD 20,000 in aggregate across all Delegates for the same calendar month of service.
 2. Administration. The Spark Foundation administers compensation from its approved operating budget.
-3. Timing & Proration. The compensation structure goes into effect by December 1st 2025, with first payment being made January 2026. Payment is made monthly in arrears and prorated for partial months of service.
+3. Timing & Proration. Payment is made monthly in arrears and prorated for partial months of service. The Spark Foundation must notify each Delegate of the applicable compensation and its effective date before service at that compensation begins. Compensation for service before that date remains governed by the terms applicable when the service was provided, subject to the eligibility and clawback provisions below.
 4. Eligibility & Clawback. Payment requires the Delegate to be in good standing and to have met responsibilities in [A.6.1.1.1.3.1.3.3 - Delegate Responsibilities](f230ba4e-eb5a-444e-b07a-13a0292338bd) during the covered period; the Spark Foundation may withhold or claw back amounts for non-performance or breach.
 5. No Waiver of Oversight. Compensation does not limit or waive any onboarding, renewal, or offboarding requirements.
 
@@ -9914,7 +10299,7 @@ The current USDT risk parameters are:
 - Optimal Utilization: 95%
 - Isolated Debt Ceiling: N/A
 - Base Rate: 0%
-- Slope 1: SSR value + 0.5%
+- Slope 1: SSR value + 0.1%
 - Slope 2: 15%
 - Reserve State: Active
 - Collateral: No
@@ -10072,7 +10457,7 @@ The current rETH risk parameters are:
 
 The current LBTC risk parameters are:
 
-- LTV: 74%
+- LTV: 0%
 - Liquidation Threshold: 75%
 - E-mode Category: 0
 - Liquidation Bonus: 8%
@@ -10297,8 +10682,8 @@ The subdocuments herein define the current configuration of the SparkLend Gnosis
 
 The current GNO risk parameters are:
 
-- LTV: 40%
-- Liquidation Threshold: 50%
+- LTV: 0%
+- Liquidation Threshold: 0.01%
 - E-mode Category: N/A
 - Liquidation Bonus: 12%
 - Reserve Factor: 50%
@@ -10321,9 +10706,9 @@ The current GNO risk parameters are:
 
 The current WETH risk parameters are:
 
-- LTV: 70%
-- Liquidation Threshold: 75%
-- E-mode Category: ETH
+- LTV: 0%
+- Liquidation Threshold: 0.01%
+- E-mode Category: 0
 - Liquidation Bonus: 5%
 - Reserve Factor: 50%
 - Supply Cap: 5,000 ETH
@@ -10369,8 +10754,8 @@ The current USDT risk parameters are:
 
 The current sDai risk parameters are:
 
-- LTV: 70%
-- Liquidation Threshold: 75%
+- LTV: 0%
+- Liquidation Threshold: 0.01%
 - E-mode Category: USD
 - Liquidation Bonus: 6%
 - Reserve Factor: 50%
@@ -10393,9 +10778,9 @@ The current sDai risk parameters are:
 
 The current wstETH risk parameters are:
 
-- LTV: 65%
-- Liquidation Threshold: 72.5%
-- E-mode Category: ETH
+- LTV: 0%
+- Liquidation Threshold: 0.01%
+- E-mode Category: 0
 - Liquidation Bonus: 8%
 - Reserve Factor: 50%
 - Supply Cap: 15,000 wstETH
@@ -10466,7 +10851,7 @@ The current USDC.e risk parameters are:
 The current WXDAI risk parameters are:
 
 - LTV: 0%
-- Liquidation Threshold: 75%
+- Liquidation Threshold: 0.01%
 - E-mode Category: USD
 - Liquidation Bonus: 5%
 - Reserve Factor: 50%
@@ -10973,10 +11358,10 @@ Operational expense reserve is calculated as the higher of past month’s operat
 
 ###### A.6.1.1.1.3.4.2.2.3 - Parameters [Core]  <!-- UUID: 7410ed94-db95-437a-a4d2-9120036ec7bd -->
 
-The current Target SubDAO Proxy Value parameters are:
+The Target SubProxy Value parameters in effect at this time are:
 
 - RRC Lookback Period: 3 months
-- Spark Product Backstop: 1 million USDS
+- Spark Product Backstop: 5 million USDS
 - Target Runway: 12 months
 
 ##### A.6.1.1.1.3.4.2.3 - Excess SubDAO Proxy Funds Disposition Policy [Core]  <!-- UUID: 6a4870fa-73f1-4d49-b7ee-d531fb59a971 -->
@@ -10989,7 +11374,9 @@ The subdocuments herein provide definitions for relevant parameters and values.
 
 ###### A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value [Core]  <!-- UUID: 9705a4be-e92f-4195-8e85-1cfe19ec1a0d -->
 
-The Current SubDAO Proxy Value is defined as the sum of all USDS tokens held in the Spark SubDAO on Ethereum at 0x3300f198988e4C9C63F75dF86De36421f06af8c4. Note that the operational process of excess SubDAO Proxy funds disposition as defined in [A.6.1.1.1.3.4.2.3.2 - Operational Process](dfa483c7-5adb-480e-9f82-c97cf4d0f74e) uses the most up-to-date onchain value for the Current SubDAO Proxy Value, and this does not need to be updated in the Spark Artifact as it is expected to fluctuate frequently based on monthly settlements and other operational processes.
+The Current SubProxy Value is defined as the sum of all USDS tokens held in the Spark SubProxy on Ethereum at wallet address 0x3300f198988e4C9C63F75dF86De36421f06af8c4, less the USDS value of the accrued but unrealized liabilities of Spark Savings vaults which, for the avoidance of doubt, consist of the yield that has accrued on Spark Savings depositors’ positions but that those users have not withdrawn.
+
+The Spark SubProxy’s USDS balance and the USDS value of the accrued but unrealized liabilities of Spark Savings vaults must be measured as of the same valuation time specified in section [A.6.1.1.1.3.4.2.3.2 - Operational Process](dfa483c7-5adb-480e-9f82-c97cf4d0f74e). The calculated Current SubProxy Value does not need to be recorded in the Spark Artifact for each monthly cycle.
 
 ###### A.6.1.1.1.3.4.2.3.1.2 - Standard Buyback Rate [Core]  <!-- UUID: 796dc640-03a7-4608-b676-a235a68174b1 -->
 
@@ -11009,9 +11396,17 @@ The Buyback Executor is the entity responsible for receiving excess SubDAO Proxy
 
 ###### A.6.1.1.1.3.4.2.3.2 - Operational Process [Core]  <!-- UUID: dfa483c7-5adb-480e-9f82-c97cf4d0f74e -->
 
-Each month, immediately following Spark’s monthly settlement with Sky, the Current SubDAO Proxy Value with be calculated based on the definition in [A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value](9705a4be-e92f-4195-8e85-1cfe19ec1a0d), and the Target SubDAO Proxy Value based on the evaluation method in [A.6.1.1.1.3.4.2.2.2 - Evaluation Method](99d4b8da-fa5c-49ce-b93c-70d07334d7aa). If the Current SubDAO Proxy Value is greater than the Target SubDAO Proxy Value, this excess SubDAO Proxy Value is multiplied by the Standard Buyback Rate parameter up to the Enhanced Buyback Threshold, and then by the Enhanced Buyback Rate for any amount in excess of the Enhanced Buyback Threshold. The buyback amount for the month is set as the sum of the two values of the standard and enhanced buybacks.
+For each monthly buyback cycle, Spark must calculate the Current SubProxy Value and Target SubProxy Value as of 16:00 UTC on the first (1st) day of that month. The Current SubProxy Value must be calculated in accordance with section [A.6.1.1.1.3.4.2.3.1.1 - Current SubDAO Proxy Value](9705a4be-e92f-4195-8e85-1cfe19ec1a0d), and the Target SubProxy Value in accordance with section [A.6.1.1.1.3.4.2.2.2 - Evaluation Method](99d4b8da-fa5c-49ce-b93c-70d07334d7aa).
 
-The next available Spark proxy Spell will include a transfer of this calculated buyback amount to the designated Buyback Executor. After using the transferred funds to purchase SPK, the Buyback Executor will transfer all accrued SPK to the Spark SubDAO Proxy.
+If the Current SubProxy Value is greater than the Target SubProxy Value, the excess is used to calculate the standard and enhanced buyback amounts. The Standard Buyback Rate applies to the portion of the Current SubProxy Value that is in excess of the Target SubProxy Value and up to the Enhanced Buyback Threshold. The Enhanced Buyback Rate applies to the portion of the Current SubProxy Value from and above the Enhanced Buyback Threshold. The Enhanced Buyback Threshold is determined as a percentage of the Target SubProxy Value in accordance with section [A.6.1.1.1.3.4.2.3.1.4 - Enhanced Buyback Threshold](e150176c-1da5-4adb-ba5d-f344d0be03ae).
+
+For the avoidance of doubt, if the Current SubProxy Value is less than or equal to the Target SubProxy Value, no buyback transfer is made for that monthly cycle.
+
+Spark must include the relevant buyback transfer to the designated Buyback Executor in the next available Spark proxy Spell with a voting date scheduled on or after the twenty-second (22nd) day of the month to which the calculation relates, subject to the Prime Spell Process.
+
+In respect of each buyback transfer, the Buyback Executor must use an onchain time-weighted average price (TWAP) mechanism to purchase SPK tokens with the transferred USDS over a period of ninety (90) days beginning from the Buyback Executor’s receipt of the relevant buyback transfer. After using the transferred funds to purchase SPK, the Buyback Executor must transfer any and all SPK tokens purchased pursuant to the relevant buyback transfer to the Spark SubProxy as soon as is reasonably practicable. For the avoidance of doubt, buyback transfers executed onchain before this amendment comes into effect remain subject to the Operational Process that was in effect at the time of the buyback transfer.
+
+Spark remains subject at all times to the Target SubProxy Value restriction in section [A.6.1.1.1.3.4.2.2.1.1 - Target SubDAO Proxy Value Definition](3baabdcc-d715-419d-97b7-28936d4b0f95) and the capital management obligations in section [A.6.1.1.1.3.4.2.1.2 - Operational Process](7bc96051-ce11-4e29-aa30-b535183aeaa7), including during the time between the monthly valuation of the Spark SubProxy and execution of the buyback transfer.
 
 ###### A.6.1.1.1.3.4.2.3.3 - Parameters [Core]  <!-- UUID: b52a4011-5346-4de7-9522-90ae66b81600 -->
 
@@ -11193,6 +11588,19 @@ The current parameters for Spark Savings USDT on X Layer are:
 - Min yield: 0%
 - Max yield: 6%
 - Supply cap: 750 million
+
+###### A.6.1.1.1.3.5.2.2.9 - Spark Savings USDC on X Layer [Core]  <!-- UUID: c5a6c702-dcbc-4c31-8c61-9ca1b9fdca20 -->
+
+The current parameters for Spark Savings USDC on X Layer are:
+
+- Default admin role: 0xCF5af6F53ceC74B791cb4182aC778ca9CD323510
+- Setter role: 0x79b4055Eda153f739B5EA63C9B647c1a095059f5
+- Taker role: 0xe6D5d041Fc5e7fDD0A53C13e78a1cc7e4ffCb667
+- Take rate limit: Unlimited
+- Min yield: 0%
+- Max yield: 6%
+- Supply cap: 500 million
+
 #### A.6.1.1.1.3.5.3 - Policies and Operational Parameters [Core]  <!-- UUID: c8fcae7c-01ea-48cf-9b8c-4de7d3c86d78 -->
 
 The documents herein define the currently active policies for Spark Savings Configuration, alongside relevant operational parameters for implementing the policies.
@@ -11251,6 +11659,10 @@ The current Target Liquidity for Spark Savings USDT on Arbitrum is the greater o
 
 The current Target Liquidity for Spark Savings USDT on X Layer is the greater of 10% of total deposits or 1 million USDT, up to a maximum amount of 10 million USDT.
 
+###### A.6.1.1.1.3.5.3.1.3.9 - Spark Savings USDC on X Layer [Core]  <!-- UUID: d99c7337-d95d-4b3f-be90-eebdd8306628 -->
+
+The current Target Liquidity for Spark Savings USDC on X Layer is the greater of 10% of total deposits or 1 million USDC, up to a maximum amount of 10 million USDC.
+
 ##### A.6.1.1.1.3.5.3.2 - Rewards Rate [Core]  <!-- UUID: 22d359a5-3f83-409f-8396-595ac1ea0060 -->
 
 The documents herein define Spark's policy for managing the rewards rate for Spark Savings vaults.
@@ -11299,6 +11711,10 @@ The Rewards Rate for Spark Savings USDT on Arbitrum is set via the vault’s set
 ###### A.6.1.1.1.3.5.3.2.3.8 - Spark Savings USDT on X Layer [Core]  <!-- UUID: 40f91471-6b4c-4058-8917-d3b6d2a87f38 -->
 
 The Rewards Rate for Spark Savings USDT on X Layer is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Rewards Rate Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.8 - Onchain Parameters](c6eb9203-a5af-4f9b-baaf-b70c4449d4a4). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Rewards Rate Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
+
+###### A.6.1.1.1.3.5.3.2.3.9 - Spark Savings USDC on X Layer [Core]  <!-- UUID: fac0c3d0-03d4-4d0b-b1ef-50c14e126924 -->
+
+The Rewards Rate for Spark Savings USDC on X Layer is set via the vault’s setter role in accordance with [A.6.1.1.1.3.5.3.2.2 - Rewards Rate Operational Process](6c7a4964-485f-4edf-a05f-61fa65c9871c), within the Min Yield and Max Yield bounds specified in [A.6.1.1.1.3.5.2.2.9 - Onchain Parameters](c5a6c702-dcbc-4c31-8c61-9ca1b9fdca20). Within those bounds, the rate may be set as a fixed value or by reference to an external benchmark, as provided in [A.6.1.1.1.3.5.3.2.1 - Rewards Rate Definition](3a143911-80c9-4eb0-9aa3-5b3d3a8ca843).
 
 ### A.6.1.1.1.3.6 - Strategic Investments [Core]  <!-- UUID: a05cc5db-64e5-4279-84ed-e93d4aa67c38 -->
 
@@ -11658,7 +12074,7 @@ If a borrower becomes insolvent or enters administration, any outstanding debts 
 
 ###### A.6.1.1.1.3.7.2.5.2 - Unapproved Products [Core]  <!-- UUID: a51aef25-bf7e-4467-9678-0b1ea59fb47e -->
 
-If a borrower trades unapproved assets or products, this will be discounted or penalized via the margin calculation as noted in section [A.6.1.1.1.3.7.2.2.5 - Unapproved Assets and Products](5163ebb9-a425-4df6-aba9-b483e8a482c1). Repeated or serious instances of holding unapproved positions may result in the position being liquidated to protect the interests of the lender.
+If a borrower trades unapproved assets or products, this will be discounted or penalized via the margin calculation as noted in section [A.6.1.1.1.3.7.2.2.6 - Unapproved Assets and Products](5163ebb9-a425-4df6-aba9-b483e8a482c1). Repeated or serious instances of holding unapproved positions may result in the position being liquidated to protect the interests of the lender.
 
 ###### A.6.1.1.1.3.7.2.5.3 - Borrow Rate Shortfall [Core]  <!-- UUID: a81f2f5d-796f-49e0-ac34-dbc5650ee2fe -->
 
@@ -11966,23 +12382,29 @@ A Curator is a specific admin role defined within the Morpho smart contract syst
 
 ##### A.6.1.1.1.3.9.3.2 - Scope of Authority [Core]  <!-- UUID: e4fb1a94-cfd8-40d3-ac79-966dd9f8db24 -->
 
-Curators may only execute actions that have been explicitly approved by Spark governance via polling.
+Curators may only implement changes that have been explicitly approved by Spark governance via polling. Curators may queue changes before approval in accordance with [A.6.1.1.1.3.9.4.1 - Polling Requirement](218f889f-6a5d-46a8-b8a3-cb0a075825c2), and may cancel pending changes in accordance with [A.6.1.1.1.3.9.6.2 - Cancellation Reasons](0e572cad-bdf2-437f-b272-0cd634424b19).
 
 ##### A.6.1.1.1.3.9.3.3 - Reporting of Curator Actions [Core]  <!-- UUID: 6f64ac9e-daf1-4339-8046-3894e57f4383 -->
 
-All actions taken under a Curator role must be reported by the Curator in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, the UTC time at which the timelock period for the action elapses, a description of the action being implemented, and a link to the poll which provided governance approval for the action.
+All actions taken under a Curator role must be reported by the Curator in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, the UTC time at which the timelock period for the action elapses, a description of the action being implemented, and a link to the related proposal and governance poll, if the poll is available. For a change queued before approval, the report must state that governance approval had not been obtained when the change was queued and include the expected poll closing time in UTC used when queueing.
 
 #### A.6.1.1.1.3.9.4 - Governance Approval Process [Core]  <!-- UUID: e3ddbd39-ee57-4b17-b66e-8bc823a03098 -->
 
-The documents herein describe the requirements for all Curator actions to be approved by governance.
+The documents herein describe the requirements for governance approval before implementation of Curator changes and the conditions for queueing changes before approval.
 
 ##### A.6.1.1.1.3.9.4.1 - Polling Requirement [Core]  <!-- UUID: 218f889f-6a5d-46a8-b8a3-cb0a075825c2 -->
 
-All curator-executed changes must be approved in advance by Spark governance through a polling process.
+All curator-executed changes must be approved by Spark governance through a polling process before they are implemented.
+
+A Curator may queue a proposed change before the related governance poll is created or approved, provided that the onchain timelock for the pending change will expire no earlier than twenty-four (24) hours after the expected closing time of that poll. Queueing means submitting a change to the onchain timelock without implementing it. All applicable timelock delays continue to apply.
+
+The twenty-four (24) hour condition applies when the change is queued. Once the related poll is created, its actual closing time, including any subsequent change to that time, must be used to assess the remaining period before the pending change becomes executable. Cancellation on timing grounds is required only if that period is less than twenty (20) hours.
+
+The pending change must match the change submitted for approval. If the poll does not approve that change, or the actual poll closing time leaves less than twenty (20) hours before the pending change becomes executable, the pending change must be cancelled in accordance with [A.6.1.1.1.3.9.6.2 - Cancellation Reasons](0e572cad-bdf2-437f-b272-0cd634424b19).
 
 ##### A.6.1.1.1.3.9.4.2 - Execution Authority [Core]  <!-- UUID: 48e6eeb9-86c0-4bfa-8be0-e9917d163118 -->
 
-Following successful governance approval, the Curator is authorized to execute the approved change or changes by submitting the corresponding onchain transaction or transactions.
+The Curator is authorized to submit the onchain transactions needed to queue a change before governance approval only under the conditions in [A.6.1.1.1.3.9.4.1 - Polling Requirement](218f889f-6a5d-46a8-b8a3-cb0a075825c2). Following successful governance approval, the approved change or changes may be implemented only after the applicable timelock has expired. Queueing a change does not authorize its implementation.
 
 #### A.6.1.1.1.3.9.5 - Timelock Controls [Core]  <!-- UUID: a4f6132e-787f-445a-9290-bd810b9eb93f -->
 
@@ -12002,23 +12424,27 @@ The documents herein define the cancellation mechanisms and authorities for pend
 
 ##### A.6.1.1.1.3.9.6.1 - Authorized Cancellers [Core]  <!-- UUID: f87333c8-ec5e-4483-83a9-791e1f9f9634 -->
 
-Pending changes within the timelock must be able to be cancelled by any of the following: the Spark subdao proxy, or a designated guardian role.
+Pending changes within the timelock must be able to be cancelled by any of the following: the Spark SubProxy, a designated guardian or sentinel role, or the Curator. On Morpho Vaults v1 the Spark SubProxy and the Guardian each cancel directly; on Morpho Vaults v2, where revocation is restricted to the curator and sentinel roles, the Spark SubProxy exercises this authority through a Sentinel it appoints.
 
 ##### A.6.1.1.1.3.9.6.2 - Cancellation Reasons [Core]  <!-- UUID: 0e572cad-bdf2-437f-b272-0cd634424b19 -->
 
 Pending changes may be cancelled for the following reasons: misalignment or conflict with the Sky Atlas or Spark Artifact; excessive or unacceptable risk, as identified by the Sky Core Council; emergency situations, as defined in the Sky Atlas in [A.1.9 - Emergency Response System](1d940c6d-02ce-4c17-8057-cef13c1cc7ad); or cancellation requested by the Curator.
 
-##### A.6.1.1.1.3.9.6.3 - Guardian Role [Core]  <!-- UUID: 900c4a0d-ed93-41ad-b914-f84d50d6940e -->
+For a change queued before governance approval, the Curator and the cancellation authority holders for the relevant smart contract instance are responsible for ensuring that the pending change is cancelled before it becomes executable if the related poll does not approve the exact pending change, including where the poll is not held, is withdrawn or cancelled, or closes without a valid approval result. The same responsibility applies on timing grounds only if the actual poll closing time, including any subsequent change to that time, leaves less than twenty (20) hours before the pending change becomes executable. A period of twenty (20) hours or more does not require cancellation on timing grounds; the other cancellation reasons and the duty to cancel unapproved changes remain applicable. Any actor authorized under [A.6.1.1.1.3.9.6.1 - Authorized Cancellers](f87333c8-ec5e-4483-83a9-791e1f9f9634) may fulfil this responsibility by cancelling the pending change; once it has been cancelled, no duplicate cancellation is required.
 
-A Guardian is a specific admin role defined within the Morpho smart contract system, also referred to as a Sentinel in some cases.
+##### A.6.1.1.1.3.9.6.3 - Cancellation Authority [Core]  <!-- UUID: 900c4a0d-ed93-41ad-b914-f84d50d6940e -->
 
-###### A.6.1.1.1.3.9.6.3.1 - Guardian Independence [Core]  <!-- UUID: ea50c8da-008e-4f0f-b2df-ac666d5faf13 -->
+A Guardian is a specific admin role defined within the Morpho smart contract system. In Morpho Vaults v1 this role is named Guardian; in Morpho Vaults v2 it is named Sentinel. Within this framework, the two are together referred to as the cancellation authority. In Morpho Vaults v2, multiple addresses may hold the Sentinel role. The vault owner may remove a Sentinel role holder without a timelock; where the vault owner is the Spark SubProxy, removal requires a Sky Executive Vote.
 
-The Guardian must be independent from the Curator for each specific smart contract instance, meaning there must be no overlap between approvers, signers, contributors, role owners, or entities between the two roles. Compromise or misalignment of the Curator role should not in itself create risk of the Guardian role also becoming compromised.
+###### A.6.1.1.1.3.9.6.3.1 - Cancellation Authority Independence [Core]  <!-- UUID: ea50c8da-008e-4f0f-b2df-ac666d5faf13 -->
 
-###### A.6.1.1.1.3.9.6.3.2 - Guardian Reporting [Core]  <!-- UUID: ac45b63b-3394-49d6-aab7-ff67b1d4fd0c -->
+The cancellation authority holder controlled by the Operational Executor Agent must use a signer set separate from the signer set of the Curator multisig for the same smart contract instance, and at least one cancellation authority holder must be fully independent of every entity serving in the Curator role. Compromise or misalignment of the Curator role must not in itself remove the ability of the cancellation authority to cancel pending changes.
 
-All actions taken under a Guardian role must be reported by the Guardian in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, a description of the action, general reasoning for the action, and justification for the action being within the governance-approved mandate.
+The requirements of this section do not apply to the independence of the Curator from a cancellation authority holder controlled by the Operational GovOps of an Operational Executor Agent or by another actor expressly designated by Sky Governance to exercise cancellation authority for the relevant smart contract instance. This section does not require such a holder to use a signer set separate from the Curator’s, and does not require an additional independent cancellation authority holder for an instance with such a holder.
+
+###### A.6.1.1.1.3.9.6.3.2 - Cancellation Authority Reporting [Core]  <!-- UUID: ac45b63b-3394-49d6-aab7-ff67b1d4fd0c -->
+
+All actions taken under the cancellation authority must be reported by the acting role holder in the Spark-Prime subsection of the Sky forum within 24 hours of submission. The report should include a transaction hash of the action, a description of the action, general reasoning for the action, and justification for the action being within the governance-approved mandate.
 
 #### A.6.1.1.1.3.9.7 - Delegated Risk Curation Instances [Core]  <!-- UUID: b3b590f9-0d3e-4c4a-a9e5-5b114d3c0ae4 -->
 
@@ -12044,9 +12470,13 @@ The entity or entities serving in the curator role, including how the role is co
 
 The specific execution actions the curator is permitted to take, subject to prior Spark governance approval via polling.
 
-###### A.6.1.1.1.3.9.7.1.5 - Guardian [Core]  <!-- UUID: 817391bd-3748-479c-846e-f8d3e3ec56f4 -->
+###### A.6.1.1.1.3.9.7.1.5 - Cancellation Authority [Core]  <!-- UUID: 817391bd-3748-479c-846e-f8d3e3ec56f4 -->
 
-The entity or entities serving in the guardian role, including how the role is controlled at the smart contract level and how cancellation authority is exercised.
+The entity or entities serving in the guardian or sentinel role, including how each is controlled at the smart contract level and how cancellation authority is exercised.
+
+###### A.6.1.1.1.3.9.7.1.6 - Allocator [Core]  <!-- UUID: cdd77814-d406-40ab-8a99-28127c1b70c4 -->
+
+The entity or entities serving in the Allocator role, where the Allocator is not the Prime Agent itself.
 
 ##### A.6.1.1.1.3.9.7.2 - Approved Instances [Core]  <!-- UUID: 5f30c335-8f12-4cc7-becd-f542a7546463 -->
 
@@ -12058,9 +12488,9 @@ The Spark USDS Morpho Vault on Ethereum Mainnet is an approved instance with the
 
 - Instance Name: Spark USDS Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0xe41a0583334f0dc4E023Acd0bFef3667F6FE0597`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
 ###### A.6.1.1.1.3.9.7.2.2 - Spark Blue Chip USDC Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 603cf96e-5819-4e3d-942e-5290dd000847 -->
 
@@ -12068,19 +12498,19 @@ The Spark Blue Chip USDC Morpho Vault on Ethereum mainnet is an approved instanc
 
 - Instance Name: Spark Blue Chip USDC Morpho Vault (Ethereum Mainnet)
 - Contract Address: `0x56A76b428244a50513ec81e225a293d128fd581D`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
 ###### A.6.1.1.1.3.9.7.2.3 - Spark Blue Chip USDT Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 5ef1e78f-e1d2-4b09-b00c-618e36ccb2d8 -->
 
 The Spark Blue Chip USDT Morpho Vault on Ethereum mainnet is an approved instance with the following details:
 
 - Instance Name: Spark Blue Chip USDT Morpho Vault (Ethereum Mainnet)
-- Contract Address: `0xc7CDcFDEfC64631ED6799C95e3b110cd42F2bD22`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Contract Address: `0xb0c424116172B55CbB6dD3136F5989F7959e5B91`
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
 
 ###### A.6.1.1.1.3.9.7.2.4 - Spark USDC Morpho Vault - Base [Core]  <!-- UUID: 85722a93-ec30-4e7f-883c-adde12b0ac6b -->
 
@@ -12088,9 +12518,20 @@ The Spark USDC Morpho Vault on Base is an approved instance with the following d
 
 - Instance Name: Spark USDC Morpho Vault (Base)
 - Contract Address: `0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A`
-- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 3 of 5 signer approval threshold
+- Curator: Soter Labs, implemented via a Gnosis Safe multisig at `0x0f963A8A8c01042B69054e787E5763ABbB0646A3`, requiring a 2 of 2 signer approval threshold
 - Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
-- Guardian: Spark Foundation, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 3 of 5 signer approval threshold
+- Cancellation Authority: Operational GovOps Soter Labs, implemented via a Gnosis Safe multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold
+
+###### A.6.1.1.1.3.9.7.2.5 - Sentora RLUSD Morpho Vault - Ethereum Mainnet [Core]  <!-- UUID: 67d8abe9-a398-4c7c-9e0d-ee48e97489e1 -->
+
+The Sentora RLUSD Morpho Vault on Ethereum Mainnet is an approved instance with the following details:
+
+- Instance Name: Sentora RLUSD Morpho Vault (Ethereum Mainnet)
+- Contract Address: `0xFC8C624B6080a0a780583799f2A862DE936F6E22`
+- Curator: Soter Labs and Sentora, implemented via a Gnosis Safe multisig at `0xff070333654aaE76A0A77465E4F0fd101C57c03F`, requiring a 2 of 2 signer approval threshold
+- Scope of Curator Authority: Execution of risk parameter changes and operational actions approved by Spark governance polls
+- Cancellation Authority: Sentinel role held by the Operational GovOps Soter Labs multisig at `0xf5748bBeFa17505b2F7222B23ae11584932C908B`, requiring a 2 of 3 signer approval threshold, together with a Soter Labs multisig at `0xb5bFd4883256089Dc58D962b80ab7068e71E7c80`, requiring a 2 of 3 signer approval threshold, and a Sentora multisig at `0x9e396dE3312D373b87F9BD8763fb48184b42aac0`, requiring a 1 of 1 signer approval threshold
+- Allocator: Sentora, at `0x9e396dE3312D373b87F9BD8763fb48184b42aac0` and at `0xC4Ba4e822C420452fe2BAB93211208D3CcBd79D3`
 
 ### A.6.1.1.1.3.10 - Confidential Strategic Integrations and Deployments [Core]  <!-- UUID: 5902deeb-0c4d-4df6-89bb-22212b81e96a -->
 
